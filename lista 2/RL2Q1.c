@@ -19,6 +19,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <stdbool.h>
+
+#define LINE_SIZE 1024
+#define MAX_NODES 50
 
 typedef struct Node {
     int key;
@@ -28,12 +32,81 @@ typedef struct Node {
     int height;
 } Node;
 
-Node *insert(Node **root, int key) {
-    Node *new_node = (Node *)malloc(sizeof(Node));
+typedef struct BSTResult {
+    int heights[LINE_SIZE];
+    int count;
+    int max_key;
+    int max_height;
+    int predecessor;
+} BSTResult;
+
+// Protótipos
+void process_line(char *line, BSTResult *result);
+Node* insert(Node **root, int key);
+Node* find_predecessor(Node *root, int key);
+Node* find_max(Node *root);
+void free_tree(Node *root);
+
+int main() {
+    FILE *input = fopen("L2Q1.in", "r");
+    FILE *output = fopen("L2Q1.out", "w");
+    char line[LINE_SIZE];
+
+    while (fgets(line, LINE_SIZE, input)) {
+        BSTResult result = {0};
+        process_line(line, &result);
+        
+        // Imprime alturas
+        for (int i = 0; i < result.count; i++) {
+            fprintf(output, "%d ", result.heights[i]);
+        }
+        
+        // Imprime max e predecessor
+        if (result.count > 0) {
+            fprintf(output, "max %d alt %d pred ", result.max_key, result.max_height);
+            if (result.predecessor != -1) 
+                fprintf(output, "%d", result.predecessor);
+            else 
+                fprintf(output, "NaN");
+        }
+        fprintf(output, "\n");
+    }
+
+    fclose(input);
+    fclose(output);
+    return 0;
+}
+
+void process_line(char *line, BSTResult *result) {
+    Node *root = NULL;
+    char *token = strtok(line, " \n");
+    
+    while (token != NULL) {
+        int key = atoi(token);
+        Node *new_node = insert(&root, key);
+        
+        // Armazena altura
+        result->heights[result->count++] = new_node->height;
+        
+        token = strtok(NULL, " \n");
+    }
+    
+    // Encontra máximo e predecessor
+    Node *max_node = find_max(root);
+    if (max_node) {
+        result->max_key = max_node->key;
+        result->max_height = max_node->height;
+        Node *pred = find_predecessor(root, max_node->key);
+        result->predecessor = pred ? pred->key : -1;
+    }
+    
+    free_tree(root);
+}
+
+Node* insert(Node **root, int key) {
+    Node *new_node = malloc(sizeof(Node));
     new_node->key = key;
-    new_node->left = NULL;
-    new_node->right = NULL;
-    new_node->parent = NULL;
+    new_node->left = new_node->right = new_node->parent = NULL;
     new_node->height = 0;
 
     if (*root == NULL) {
@@ -43,8 +116,8 @@ Node *insert(Node **root, int key) {
 
     Node *current = *root;
     Node *parent = NULL;
-
-    while (current != NULL) {
+    
+    while (current) {
         parent = current;
         if (key < current->key) {
             current = current->left;
@@ -55,81 +128,49 @@ Node *insert(Node **root, int key) {
 
     new_node->parent = parent;
     new_node->height = parent->height + 1;
-
-    if (key < parent->key) {
+    
+    if (key < parent->key) 
         parent->left = new_node;
-    } else {
+    else 
         parent->right = new_node;
-    }
 
     return new_node;
 }
 
-Node *predecessor(Node *node) {
-    if (node == NULL) return NULL;
+Node* find_max(Node *root) {
+    if (!root) return NULL;
+    while (root->right) 
+        root = root->right;
+    return root;
+}
 
-    if (node->left != NULL) {
-        Node *current = node->left;
-        while (current->right != NULL)
+Node* find_predecessor(Node *root, int key) {
+    Node *current = root;
+    Node *pred = NULL;
+
+    while (current && current->key != key) {
+        if (key < current->key) {
+            current = current->left;
+        } else {
+            pred = current;
+            current = current->right;
+        }
+    }
+
+    if (!current) return NULL;
+    if (current->left) {
+        current = current->left;
+        while (current->right) 
             current = current->right;
         return current;
-    } else {
-        Node *current = node;
-        Node *parent = current->parent;
-        while (parent != NULL && current == parent->left) {
-            current = parent;
-            parent = current->parent;
-        }
-        return parent;
     }
+    return pred;
 }
 
 void free_tree(Node *root) {
-    if (root == NULL) return;
-    free_tree(root->left);
-    free_tree(root->right);
-    free(root);
-}
-
-int main() {
-    char line[1024];
-    while (fgets(line, sizeof(line), stdin)) {
-        Node *root = NULL;
-        Node **insert_order = NULL;
-        int count = 0;
-        char *token = strtok(line, " \n");
-
-        while (token != NULL) {
-            int key = atoi(token);
-            Node *new_node = insert(&root, key);
-            insert_order = realloc(insert_order, (count + 1) * sizeof(Node *));
-            insert_order[count++] = new_node;
-            token = strtok(NULL, " \n");
-        }
-
-        for (int i = 0; i < count; i++) {
-            printf("%d ", insert_order[i]->height);
-        }
-
-        Node *max_node = root;
-        while (max_node && max_node->right) {
-            max_node = max_node->right;
-        }
-
-        if (max_node) {
-            Node *pred = predecessor(max_node);
-            printf("max %d alt %d pred ", max_node->key, max_node->height);
-            if (pred) {
-                printf("%d\n", pred->key);
-            } else {
-                printf("NaN\n");
-            }
-        } else {
-            printf("max NaN alt NaN pred NaN\n");
-        }
-
-        free(insert_order);
-        free_tree(root);
+    if (root) {
+        free_tree(root->left);
+        free_tree(root->right);
+        free(root);
     }
-    return 0;
 }

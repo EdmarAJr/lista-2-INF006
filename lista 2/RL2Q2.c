@@ -18,7 +18,7 @@
 * Na sáida, cada nó, em ordem, registrará a diferença entre a soma dos nós à direita menos a soma dos nós à esquerda (nesta ordem).
 */
 
- #include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
