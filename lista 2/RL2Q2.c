@@ -44,7 +44,7 @@ void start();
 void process_line_q2(char *line, FILE *output);
 Node* insert_q2(Node *root, int key);
 int subtree_sum(Node *node);
-void in_order_print_q2(Node *node, FILE *output);
+void in_order_print_q2(Node *node, FILE *output, bool *first); 
 void free_tree(Node *root);
 
 int main() {
@@ -82,7 +82,8 @@ void process_line_q2(char *line, FILE *output) {
         token = strtok(NULL, " \n");
     }
     
-    in_order_print_q2(root, output);
+    bool first = true;
+    in_order_print_q2(root, output, &first);
     fprintf(output, "\n");
     
     free_tree(root);
@@ -119,18 +120,25 @@ int subtree_sum(Node *node) {
     return node->key + subtree_sum(node->left) + subtree_sum(node->right);
 }
 
-void in_order_print_q2(Node *node, FILE *output) {
+void in_order_print_q2(Node *node, FILE *output, bool *first) {
     if (node == NULL)
         return;
-    in_order_print_q2(node->left, output);
+    in_order_print_q2(node->left, output, first);
     
     int left_sum = subtree_sum(node->left);
     int right_sum = subtree_sum(node->right);
     int diff = right_sum - left_sum;
-    fprintf(output, "%d (%d) ", node->key, diff);
     
-    in_order_print_q2(node->right, output);
+    if (!(*first))
+        fprintf(output, " ");
+    else
+        *first = false;
+    
+    fprintf(output, "%d (%d)", node->key, diff);
+    
+    in_order_print_q2(node->right, output, first);
 }
+
 
 void free_tree(Node *root) {
     if (root) {
