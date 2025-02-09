@@ -28,7 +28,6 @@
 #include <stdbool.h>
 
 #define LINE_SIZE 1024
-#define MAX_NODES 50
 
 typedef struct Node {
     int key;
@@ -58,50 +57,64 @@ int main() {
     return 0;
 }
 
-void start() {
+void start(){
     FILE *input = fopen("L2Q1.in", "r");
     FILE *output = fopen("L2Q1.out", "w");
-        
+    
     if (!input || !output) {
-        perror("Error opening files.");
+        perror("Error opening files");
         return;
     }
-        
+   
     char line[LINE_SIZE];
-    BSTResult result;
     while (fgets(line, LINE_SIZE, input)) {
         if (line[0] == '\n')
             continue;
-        result.count = 0;
+            
+        BSTResult result = { .count = 0, .predecessor = -1 };
         process_line(line, &result);
         
         for (int i = 0; i < result.count; i++) {
-            fprintf(output, "%d ", result.heights[i]);
+            fprintf(output, "%d", result.heights[i]);
+            if (i < result.count - 1)
+                fprintf(output, " ");
         }
-        fprintf(output, "max %d a l t %d pred %d\n", result.max_key, result.max_height, result.predecessor);
+        
+        if (result.count > 0) {
+            fprintf(output, " max %d alt %d pred ", result.max_key, result.max_height);
+            if (result.predecessor != -1)
+                fprintf(output, "%d", result.predecessor);
+            else 
+                fprintf(output, "NaN");
+        }
+        fprintf(output, "\n");
     }
-    
+
     fclose(input);
     fclose(output);
 }
 
 void process_line(char *line, BSTResult *result) {
     Node *root = NULL;
-    char *token = strtok(line, " \n");
+    char *token = strtok(line, " \t\r\n");
     
     while (token != NULL) {
+        if (strlen(token) == 0) {
+            token = strtok(NULL, " \t\r\n");
+            continue;
+        }
         int key = atoi(token);
         Node *new_node = insert(&root, key);
-        
         result->heights[result->count++] = new_node->height;
         
-        token = strtok(NULL, " \n");
+        token = strtok(NULL, " \t\r\n");
     }
     
     Node *max_node = find_max(root);
     if (max_node) {
         result->max_key = max_node->key;
         result->max_height = max_node->height;
+       
         Node *pred = find_predecessor(root, max_node->key);
         result->predecessor = pred ? pred->key : -1;
     }
@@ -109,8 +122,13 @@ void process_line(char *line, BSTResult *result) {
     free_tree(root);
 }
 
+
 Node* insert(Node **root, int key) {
     Node *new_node = malloc(sizeof(Node));
+    if (!new_node) {
+        perror("Erro ao alocar memória");
+        exit(1);
+    }
     new_node->key = key;
     new_node->left = new_node->right = new_node->parent = NULL;
     new_node->height = 0;
