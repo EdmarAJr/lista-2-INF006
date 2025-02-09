@@ -18,7 +18,7 @@ Este projeto contém a implementação em C de três questões envolvendo manipu
   - Insere números inteiros em uma ABB **sem permitir nós duplicados**.  
   - Após a inserção, a árvore é percorrida em ordem e, para cada nó, calcula a diferença entre a soma dos nós da subárvore direita e a soma dos nós da subárvore esquerda.  
   - **Arquivo de entrada:** `L2Q2.in` 
-  - **Código fonte:** [`RL2Q1.c`](lista%202/RL2Q2.c) 
+  - **Código fonte:** [`RL2Q2.c`](lista%202/RL2Q2.c) 
   - A saída é gravada em `L2Q2.out` no formato `chave (dif)`.
 
 - **RL2Q3.c**  
@@ -29,7 +29,7 @@ Este projeto contém a implementação em C de três questões envolvendo manipu
     - `r X`: remove o número X; se o nó não existir, a operação é tratada como inserção.  
   - Após as operações, a árvore é percorrida em ordem e cada nó é impresso com sua altura (número mínimo de arestas a partir da raiz). 
   - **Arquivo de entrada:** `L2Q3.in`  
-  - **Código fonte:** [`RL2Q1.c`](lista%202/RL2Q3.c)  
+  - **Código fonte:** [`RL2Q3.c`](lista%202/RL2Q3.c)  
   - A saída é gravada em `L2Q3.out`.
 
 ## Configuração do ambiente
