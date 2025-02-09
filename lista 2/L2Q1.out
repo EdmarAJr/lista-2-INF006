@@ -1,11 +1,1000 @@
-0 1 1 2 2 2 3 4 max 15 alt 4 pred 11
-0 1 2 3 2 1 max 7 alt 2 pred 6
-0 1 2 3 4 5 max 15 alt 5 pred 11
-0 1 2 3 1 max 7 alt 2 pred 6
-0 1 2 3 max 11 alt 3 pred 10
-0 1 2 3 4 5 6 max 7 alt 6 pred 6
-0 1 1 2 3 4 5 6 7 8 9 10 11 12 max 200 alt 12 pred 100
-0 max 200 alt 0 pred NaN
-0 max -1 alt 0 pred NaN
-0 max 30 alt 0 pred NaN
-
+0 1 1 2 3 3 2 3 4 2 5 4 2 6 3 3 4 max 91 alt 2 pred 60
+0 1 1 2 2 2 2 max 85 alt 2 pred 67
+0 1 1 2 3 2 3 4 5 3 2 3 6 4 3 4 max 80 alt 6 pred 69
+0 1 2 3 3 4 2 3 5 4 6 3 4 7 4 8 4 4 max 86 alt 4 pred 76
+0 1 2 1 2 3 4 3 2 max 57 alt 3 pred 50
+0 1 2 2 3 3 1 4 3 4 5 5 max 77 alt 4 pred 73
+0 1 2 3 4 1 max 80 alt 1 pred 64
+0 1 2 1 2 3 3 2 3 4 2 4 3 4 4 max 86 alt 3 pred 85
+0 1 2 3 1 2 3 4 4 3 4 2 2 3 3 max 97 alt 2 pred 95
+0 1 1 2 2 3 2 3 4 2 4 max 67 alt 2 pred 60
+0 1 2 2 3 3 4 1 4 4 5 2 5 6 5 3 6 6 max 80 alt 3 pred 77
+0 1 2 1 2 2 2 3 3 4 5 5 4 3 max 87 alt 5 pred 71
+0 1 2 1 3 3 2 max 80 alt 3 pred 54
+0 1 2 1 2 3 2 3 2 3 4 3 4 max 43 alt 3 pred 23
+0 1 2 2 3 3 1 4 4 3 4 5 6 5 7 6 5 8 max 97 alt 1 pred 92
+0 1 2 1 2 3 4 2 3 5 3 4 4 5 5 2 3 4 4 6 max 94 alt 3 pred 92
+0 1 2 3 4 4 3 5 4 4 5 6 5 6 6 6 7 7 7 8 max 91 alt 0 pred 85
+0 1 2 2 1 3 3 3 3 4 4 5 5 5 6 max 98 alt 3 pred 90
+0 1 2 3 3 2 1 2 2 3 4 4 3 4 3 4 5 max 76 alt 3 pred 67
+0 1 2 1 3 2 3 4 2 3 4 4 max 94 alt 2 pred 81
+0 1 1 2 3 2 4 4 max 83 alt 1 pred 71
+0 1 2 1 3 2 4 2 3 3 4 3 3 max 71 alt 1 pred 69
+0 1 1 2 2 3 4 5 max 91 alt 1 pred 71
+0 1 2 3 1 3 4 5 2 3 4 5 4 6 7 2 4 8 max 91 alt 4 pred 83
+0 1 2 2 3 3 4 max 92 alt 0 pred 80
+0 1 2 2 3 4 3 3 5 4 6 4 7 8 5 4 5 9 5 6 max 99 alt 0 pred 98
+0 1 2 3 4 1 3 5 5 6 6 7 8 2 6 9 4 max 93 alt 1 pred 83
+0 1 2 1 3 2 3 3 4 4 4 5 2 4 5 max 90 alt 2 pred 81
+0 1 2 3 4 3 5 6 1 7 2 8 max 94 alt 1 pred 64
+0 1 2 3 1 4 5 2 2 3 4 max 84 alt 2 pred 83
+0 1 2 3 1 3 4 2 5 4 4 5 max 91 alt 2 pred 54
+0 1 1 2 2 2 3 3 4 max 73 alt 2 pred 68
+0 1 2 3 3 2 4 max 98 alt 3 pred 96
+0 1 2 3 4 max 77 alt 1 pred 9
+0 1 1 2 3 max 93 alt 3 pred 65
+0 1 2 1 2 3 3 2 max 82 alt 2 pred 76
+0 1 1 2 3 4 4 5 6 5 3 max 93 alt 3 pred 89
+0 1 2 3 1 3 2 4 3 4 4 5 4 5 6 5 7 5 4 max 91 alt 3 pred 82
+0 1 1 2 3 2 4 2 5 5 max 93 alt 1 pred 86
+0 1 1 2 3 2 2 3 4 3 2 3 3 4 3 4 max 98 alt 4 pred 89
+0 1 2 1 3 2 3 2 max 68 alt 1 pred 47
+0 1 2 3 4 5 3 4 6 7 6 5 5 1 max 70 alt 1 pred 56
+0 1 2 1 2 max 64 alt 2 pred 47
+0 1 1 2 2 3 2 3 3 2 4 3 3 4 max 92 alt 2 pred 87
+0 1 2 3 1 3 2 3 4 5 6 2 4 4 4 5 max 100 alt 1 pred 80
+0 1 2 3 4 4 5 1 2 3 2 3 3 3 max 80 alt 2 pred 75
+0 1 2 3 3 4 4 5 5 5 max 79 alt 5 pred 56
+0 1 2 1 2 3 3 2 3 3 2 4 4 5 4 max 93 alt 3 pred 84
+0 1 2 1 3 2 2 4 4 2 3 5 max 69 alt 2 pred 61
+0 1 2 3 1 3 2 4 5 4 5 3 4 4 5 5 6 4 2 max 89 alt 6 pred 84
+0 1 1 2 3 2 2 4 5 3 6 2 max 83 alt 3 pred 67
+0 1 2 1 3 3 2 4 max 43 alt 2 pred 17
+0 1 2 2 3 3 3 4 3 5 4 4 max 78 alt 3 pred 65
+0 1 1 2 3 4 max 49 alt 1 pred 43
+0 1 2 3 4 4 5 max 86 alt 2 pred 80
+0 1 2 2 1 3 4 5 3 3 4 3 2 4 4 3 4 max 97 alt 4 pred 91
+0 1 2 3 1 4 5 2 4 5 6 3 4 6 5 3 2 4 6 max 94 alt 4 pred 74
+0 1 2 2 1 2 3 3 4 4 5 4 5 3 2 4 3 3 4 4 max 75 alt 3 pred 45
+0 1 1 2 2 3 4 3 3 4 3 4 2 5 5 max 94 alt 4 pred 81
+0 1 2 3 4 4 5 3 5 max 94 alt 0 pred 75
+0 1 1 2 2 2 3 3 max 98 alt 1 pred 57
+0 1 2 2 3 3 4 4 max 87 alt 0 pred 36
+0 1 2 2 3 3 1 4 5 6 5 7 7 2 6 max 100 alt 7 pred 90
+0 1 1 2 2 3 2 3 4 5 4 3 max 98 alt 2 pred 90
+0 1 2 1 3 4 2 3 4 max 95 alt 1 pred 63
+0 1 1 2 2 3 4 3 4 5 2 max 81 alt 3 pred 58
+0 1 2 3 4 5 6 5 max 48 alt 3 pred 37
+0 1 1 2 2 3 3 3 2 4 max 100 alt 2 pred 64
+0 1 2 3 2 max 65 alt 0 pred 22
+0 1 1 2 2 2 max 52 alt 2 pred 44
+0 1 2 3 4 5 2 3 5 1 2 4 5 3 6 4 max 84 alt 3 pred 80
+0 1 1 2 3 4 2 3 4 3 5 6 2 5 4 5 5 4 4 max 93 alt 4 pred 90
+0 1 2 3 4 4 5 3 4 5 1 max 83 alt 4 pred 75
+0 1 2 3 4 5 1 3 2 6 7 2 max 73 alt 2 pred 61
+0 1 2 2 1 2 3 4 3 4 5 2 3 3 3 4 4 max 94 alt 3 pred 92
+0 1 1 2 3 4 5 2 4 6 max 95 alt 4 pred 83
+0 1 1 2 2 3 max 4 alt 2 pred -7
+0 1 1 2 3 4 4 2 2 3 3 4 3 4 max 94 alt 2 pred 71
+0 1 1 2 3 2 3 2 3 4 4 5 max 68 alt 2 pred 60
+0 1 2 3 1 2 3 4 3 4 2 3 4 max 83 alt 4 pred 77
+0 1 1 2 2 3 4 3 2 3 5 4 4 3 4 5 5 5 6 max 93 alt 5 pred 76
+0 1 2 3 4 1 max 96 alt 1 pred 31
+0 1 2 1 3 4 5 2 4 3 5 5 max 100 alt 1 pred 82
+0 1 2 3 4 4 5 5 3 1 2 max 85 alt 1 pred 59
+0 1 2 1 2 2 2 3 3 3 4 3 3 3 4 4 max 96 alt 2 pred 93
+0 1 2 2 3 3 4 1 5 2 4 2 max 92 alt 2 pred 42
+0 1 1 2 3 2 3 4 3 4 2 3 4 4 5 5 5 3 3 max 89 alt 5 pred 79
+0 1 2 3 3 1 4 max 21 alt 1 pred 2
+0 1 2 2 3 4 4 5 1 3 4 max 100 alt 1 pred 89
+0 1 2 3 1 4 max 72 alt 4 pred NaN
+0 1 1 2 2 3 3 4 max 97 alt 2 pred 22
+0 1 1 2 2 3 3 3 3 4 4 4 4 2 5 max 99 alt 5 pred 92
+0 1 1 2 3 2 2 3 max 94 alt 3 pred 27
+0 1 2 3 3 1 2 max 85 alt 1 pred 77
+0 1 2 3 1 2 3 2 4 3 4 3 max 95 alt 3 pred 84
+0 1 1 2 2 3 4 3 2 4 3 3 5 2 6 3 5 7 max 97 alt 2 pred 90
+0 1 1 2 2 3 4 3 3 5 6 4 max 97 alt 1 pred 93
+0 1 2 3 4 4 5 1 max 100 alt 1 pred 81
+0 1 2 2 3 4 1 3 3 4 3 4 4 5 max 96 alt 3 pred 94
+0 1 2 1 3 max 74 alt 1 pred 70
+0 1 1 2 3 4 5 4 max 84 alt 2 pred 78
+0 1 2 2 3 3 4 5 6 4 max 63 alt 3 pred 19
+0 1 1 2 3 2 3 4 4 4 5 4 5 5 5 6 6 7 7 max 96 alt 1 pred 75
+0 1 2 3 3 4 5 5 4 6 6 7 7 8 9 2 7 8 max 93 alt 0 pred 83
+0 1 1 2 2 3 2 max 59 alt 1 pred 30
+0 1 1 2 2 3 2 3 4 4 5 5 3 max 95 alt 2 pred 89
+0 1 2 3 1 3 4 4 5 4 max 91 alt 1 pred 68
+0 1 2 3 4 5 3 4 5 5 4 6 7 5 7 1 8 8 5 6 max 97 alt 1 pred 89
+0 1 2 3 4 max 65 alt 0 pred 5
+0 1 2 3 2 3 3 4 4 5 4 5 6 1 2 max 98 alt 1 pred 93
+0 1 2 2 3 4 4 3 5 max 100 alt 3 pred 89
+0 1 2 1 2 2 3 4 4 2 3 5 6 max 95 alt 2 pred 82
+0 1 2 3 2 3 3 3 4 5 4 4 1 2 3 4 4 max 92 alt 3 pred 65
+0 1 2 2 3 3 3 3 4 5 max 97 alt 0 pred 88
+0 1 2 3 4 4 5 5 6 6 1 2 7 7 5 6 6 5 7 6 max 86 alt 1 pred 63
+0 1 2 3 1 4 2 2 5 2 3 4 3 max 85 alt 3 pred 79
+0 1 2 3 4 2 5 4 3 3 4 1 5 4 2 6 5 max 63 alt 2 pred 56
+0 1 2 2 3 1 3 4 3 4 5 6 5 2 4 6 7 5 7 8 max 100 alt 2 pred 95
+0 1 2 1 3 2 4 2 5 5 3 3 3 4 5 4 5 6 5 max 95 alt 1 pred 90
+0 1 1 2 3 4 4 5 5 2 max 93 alt 1 pred 80
+0 1 2 3 3 4 1 4 5 5 2 4 2 6 3 5 3 3 4 max 95 alt 5 pred 92
+0 1 1 2 2 2 3 3 4 4 2 5 5 4 6 4 5 max 87 alt 2 pred 75
+0 1 2 1 3 2 3 max 59 alt 3 pred 54
+0 1 2 1 3 4 4 2 3 4 3 5 max 97 alt 2 pred 95
+0 1 2 2 1 3 3 4 5 4 2 3 4 4 max 89 alt 2 pred 62
+0 1 1 2 3 3 4 4 4 5 5 5 5 4 6 7 6 7 max 99 alt 1 pred 92
+0 1 2 3 2 1 3 4 4 2 3 5 max 94 alt 1 pred 75
+0 1 2 3 4 4 5 5 6 7 6 8 8 3 1 2 9 4 max 100 alt 4 pred 98
+0 1 2 1 3 2 3 4 4 4 4 5 max 85 alt 1 pred 70
+0 1 1 2 3 max 66 alt 1 pred 35
+0 1 1 2 2 2 3 max 63 alt 1 pred 50
+0 1 1 2 2 2 max 34 alt 2 pred 30
+0 1 2 2 3 1 4 3 5 2 max 73 alt 3 pred 72
+0 1 2 3 4 5 max 86 alt 1 pred 30
+0 1 1 2 2 3 max 78 alt 1 pred 61
+0 1 2 1 2 3 3 3 4 5 2 max 100 alt 1 pred 80
+0 1 1 2 3 3 4 4 4 2 5 5 6 3 7 3 max 80 alt 3 pred 76
+0 1 2 1 2 3 4 5 2 max 85 alt 2 pred 71
+0 1 2 3 3 4 max 12 alt 1 pred -11
+0 1 1 2 2 3 3 4 5 2 3 6 4 max 93 alt 1 pred 82
+0 1 2 2 3 3 4 4 5 5 6 5 6 3 6 7 4 max 82 alt 2 pred 45
+0 1 1 2 3 2 3 4 4 5 6 3 3 max 35 alt 3 pred 14
+0 1 2 3 4 5 3 4 1 5 2 6 5 4 3 2 5 6 max 94 alt 3 pred 90
+0 1 2 3 2 1 2 4 5 3 3 6 5 6 4 7 max 91 alt 2 pred 88
+0 1 2 2 3 4 5 1 6 6 3 7 5 2 8 7 4 max 99 alt 5 pred 84
+0 1 1 2 2 3 4 2 3 5 3 4 6 4 5 6 7 max 97 alt 2 pred 69
+0 1 1 2 3 4 2 4 5 6 7 8 5 3 6 4 3 2 7 3 max 96 alt 4 pred 85
+0 1 2 2 3 4 1 3 5 6 max 71 alt 2 pred 58
+0 1 2 3 4 5 1 2 4 6 3 3 3 2 5 5 4 7 max 55 alt 3 pred 54
+0 1 1 2 2 2 max 74 alt 2 pred 43
+0 1 2 3 3 2 4 max 86 alt 2 pred 81
+0 1 2 3 4 max 6 alt 0 pred -17
+0 1 2 3 4 3 1 4 2 4 4 5 5 5 3 6 6 5 6 7 max 96 alt 1 pred 91
+0 1 2 3 3 4 4 max 48 alt 3 pred 47
+0 1 2 1 2 2 3 3 4 5 2 3 4 5 3 3 max 76 alt 3 pred 74
+0 1 2 3 4 5 6 3 4 2 3 6 7 4 8 4 max 94 alt 0 pred 61
+0 1 1 2 2 3 4 5 6 6 7 3 7 7 8 8 9 4 max 96 alt 3 pred 75
+0 1 2 3 1 max 100 alt 2 pred 86
+0 1 2 3 3 4 1 2 4 3 max 88 alt 4 pred 26
+0 1 2 3 4 4 5 5 6 5 max 75 alt 1 pred 54
+0 1 2 3 1 2 3 2 max 71 alt 3 pred -18
+0 1 2 2 1 3 4 2 3 4 5 2 5 3 4 4 6 7 max 82 alt 2 pred 78
+0 1 2 2 3 4 5 1 3 4 2 5 2 6 max 68 alt 2 pred 49
+0 1 1 2 2 2 3 max 97 alt 3 pred 90
+0 1 2 2 3 4 3 5 5 max 80 alt 2 pred 74
+0 1 1 2 2 3 3 2 2 3 4 4 3 5 max 98 alt 3 pred 32
+0 1 2 2 1 3 2 3 2 3 max 70 alt 3 pred 29
+0 1 2 2 3 4 1 3 4 5 6 3 2 4 5 7 4 6 max 77 alt 4 pred 69
+0 1 2 3 1 2 4 3 4 2 5 5 3 6 6 4 7 8 max 98 alt 2 pred 89
+0 1 2 3 4 2 5 3 6 3 4 7 5 5 6 8 max 95 alt 2 pred 92
+0 1 2 3 4 5 2 3 3 4 6 1 5 4 2 3 max 74 alt 1 pred 73
+0 1 1 2 2 3 3 2 4 4 4 2 5 6 max 93 alt 2 pred 87
+0 1 1 2 3 2 4 2 3 3 4 3 4 4 5 max 88 alt 2 pred 83
+0 1 1 2 2 3 3 2 3 2 max 85 alt 2 pred 81
+0 1 2 3 3 1 4 4 max 95 alt 1 pred 49
+0 1 2 3 4 max 60 alt 0 pred 3
+0 1 1 2 3 max 90 alt 3 pred 22
+0 1 2 3 4 5 6 6 4 7 5 max 86 alt 0 pred 56
+0 1 2 3 3 2 4 4 4 1 3 max 61 alt 1 pred 42
+0 1 2 1 3 3 2 4 5 3 max 44 alt 3 pred 43
+0 1 2 3 1 3 2 4 5 5 4 2 max 81 alt 1 pred 58
+0 1 2 3 4 1 2 3 2 max 51 alt 4 pred 50
+0 1 2 2 3 4 5 3 max 67 alt 0 pred 63
+0 1 1 2 2 2 3 3 4 4 2 5 3 max 84 alt 3 pred 65
+0 1 1 2 2 3 2 3 2 4 3 max 78 alt 2 pred 73
+0 1 2 3 4 1 5 5 6 7 6 7 2 7 8 2 7 max 82 alt 2 pred 63
+0 1 1 2 3 3 2 4 4 2 4 5 5 5 6 6 3 5 3 3 max 70 alt 2 pred 61
+0 1 2 3 1 2 4 3 4 2 4 3 5 max 61 alt 3 pred 59
+0 1 1 2 3 2 3 3 4 2 3 4 2 3 3 4 max 78 alt 4 pred 65
+0 1 1 2 2 2 3 3 3 3 3 4 4 5 4 5 5 4 6 max 75 alt 5 pred 63
+0 1 2 3 3 4 4 5 4 4 5 5 5 5 6 6 6 max 94 alt 5 pred 88
+0 1 2 1 3 3 2 2 4 4 3 5 max 65 alt 1 pred 42
+0 1 2 1 3 4 5 3 5 4 4 5 5 6 6 2 6 7 max 94 alt 2 pred 85
+0 1 2 3 3 max 93 alt 0 pred 89
+0 1 1 2 2 2 3 3 3 4 4 2 3 4 4 3 5 5 5 max 99 alt 3 pred 94
+0 1 2 2 3 3 1 3 2 max 45 alt 1 pred 36
+0 1 2 3 1 2 4 3 5 5 2 4 2 3 max 98 alt 2 pred 93
+0 1 2 2 1 3 4 2 3 5 3 4 max 96 alt 2 pred 80
+0 1 2 3 4 5 2 3 4 5 6 5 4 5 6 max 100 alt 0 pred 94
+0 1 1 2 2 3 max 15 alt 1 pred NaN
+0 1 1 2 3 4 2 4 3 5 5 max 95 alt 3 pred 92
+0 1 2 2 3 1 2 2 3 3 3 4 4 max 70 alt 2 pred 39
+0 1 1 2 2 3 4 5 4 2 3 4 3 3 2 3 max 86 alt 2 pred 64
+0 1 2 1 3 4 2 2 3 3 3 3 3 4 max 83 alt 3 pred 67
+0 1 1 2 3 2 max 69 alt 2 pred 36
+0 1 1 2 2 3 3 4 3 4 5 max 90 alt 1 pred 38
+0 1 2 1 3 2 2 3 3 4 5 3 4 4 4 3 3 4 max 91 alt 4 pred 73
+0 1 2 3 2 4 3 1 3 4 4 2 3 4 4 5 6 5 max 99 alt 5 pred 98
+0 1 2 3 4 5 4 3 6 4 7 8 max 75 alt 1 pred 64
+0 1 2 2 1 2 3 3 2 max 99 alt 2 pred 17
+0 1 1 2 2 3 2 3 3 4 4 2 5 3 3 4 4 4 6 5 max 89 alt 4 pred 88
+0 1 1 2 3 2 4 4 2 3 3 4 4 5 4 3 max 97 alt 2 pred 75
+0 1 1 2 2 3 3 2 2 4 3 3 3 5 4 6 3 max 98 alt 2 pred 94
+0 1 2 3 3 2 3 1 4 5 3 4 max 80 alt 1 pred 58
+0 1 1 2 2 max 91 alt 2 pred 38
+0 1 1 2 3 3 2 4 max 94 alt 1 pred 85
+0 1 1 2 3 2 2 3 max 90 alt 3 pred 70
+0 1 1 2 3 3 2 2 4 5 max 77 alt 2 pred 73
+0 1 1 2 3 max 79 alt 3 pred 67
+0 1 1 2 2 3 2 3 2 3 3 4 5 4 5 4 4 6 4 7 max 89 alt 2 pred 88
+0 1 2 1 2 3 max 5 alt 2 pred NaN
+0 1 2 3 4 3 2 max 67 alt 2 pred 36
+0 1 1 2 2 3 3 4 3 4 5 4 6 5 7 8 5 5 max 86 alt 1 pred 75
+0 1 2 1 2 3 3 3 4 4 5 5 5 6 3 4 6 4 max 100 alt 1 pred 92
+0 1 2 1 2 3 4 2 3 3 5 4 5 3 4 4 4 4 5 max 94 alt 4 pred 92
+0 1 2 1 2 3 max 47 alt 3 pred 39
+0 1 2 1 2 2 max 90 alt 2 pred 82
+0 1 2 3 2 1 3 2 3 4 3 2 3 4 3 5 5 4 6 4 max 92 alt 3 pred 61
+0 1 1 2 3 2 2 3 2 3 3 4 5 3 4 4 4 4 4 5 max 86 alt 4 pred 61
+0 1 1 2 3 2 4 3 max 81 alt 3 pred 25
+0 1 2 3 4 4 2 5 5 1 3 5 6 4 2 max 97 alt 2 pred 94
+0 1 2 1 2 2 3 3 2 3 3 4 3 3 4 max 91 alt 3 pred 84
+0 1 2 2 1 3 2 3 3 2 max 69 alt 2 pred 66
+0 1 1 2 3 3 4 5 max 96 alt 1 pred 81
+0 1 1 2 2 2 max 83 alt 2 pred 60
+0 1 2 3 4 4 3 5 4 4 5 5 max 97 alt 0 pred 64
+0 1 1 2 2 3 2 2 3 3 3 max 100 alt 3 pred 95
+0 1 2 3 1 4 2 3 3 4 3 4 2 3 5 max 100 alt 3 pred 95
+0 1 2 3 4 2 5 4 1 5 6 6 7 3 2 4 5 max 97 alt 1 pred 93
+0 1 2 2 3 4 1 5 3 4 5 6 7 2 4 5 3 4 6 6 max 98 alt 4 pred 86
+0 1 2 3 4 5 4 1 5 5 6 7 6 8 2 7 2 8 7 max 93 alt 2 pred 92
+0 1 2 3 3 4 2 4 5 4 5 3 6 6 max 94 alt 4 pred 65
+0 1 2 2 3 3 3 4 5 6 4 5 1 2 4 5 5 6 3 max 69 alt 3 pred 59
+0 1 2 1 2 2 2 3 3 3 4 4 3 4 5 5 5 4 3 6 max 91 alt 3 pred 82
+0 1 2 3 2 3 3 4 4 4 4 4 5 5 max 91 alt 0 pred 69
+0 1 1 2 3 4 2 3 2 4 4 2 5 6 3 5 6 4 max 100 alt 2 pred 90
+0 1 2 3 4 5 5 6 2 6 6 max 81 alt 6 pred 61
+0 1 1 2 3 3 4 5 4 max 85 alt 1 pred 28
+0 1 2 3 1 2 3 3 4 3 max 64 alt 1 pred 20
+0 1 1 2 3 2 3 3 max 74 alt 2 pred 23
+0 1 2 3 1 4 2 4 3 5 2 4 max 90 alt 2 pred 63
+0 1 2 1 2 3 2 3 3 4 4 5 4 3 max 98 alt 2 pred 81
+0 1 1 2 2 2 3 4 2 max 83 alt 2 pred 53
+0 1 2 2 3 3 3 4 1 4 2 3 4 2 5 4 4 3 5 5 max 99 alt 2 pred 67
+0 1 2 1 2 3 2 4 max 6 alt 3 pred 5
+0 1 2 2 3 4 5 3 4 5 3 6 max 95 alt 0 pred 82
+0 1 2 3 4 2 1 3 4 2 4 2 5 3 5 3 4 max 82 alt 2 pred 73
+0 1 1 2 2 3 3 3 4 2 2 max 100 alt 2 pred 90
+0 1 2 2 3 1 3 2 4 2 3 4 3 4 4 max 91 alt 3 pred 87
+0 1 1 2 3 4 5 2 5 3 max 99 alt 2 pred 90
+0 1 2 1 3 3 4 4 2 5 max 92 alt 1 pred 89
+0 1 2 1 2 3 3 4 4 3 3 5 4 4 4 2 4 5 6 max 93 alt 4 pred 80
+0 1 2 3 3 1 4 4 2 2 2 max 97 alt 2 pred 85
+0 1 2 3 4 2 4 3 4 5 3 5 6 5 7 max 66 alt 0 pred 42
+0 1 1 2 2 3 2 3 3 2 3 4 5 3 4 6 3 4 max 100 alt 3 pred 99
+0 1 1 2 2 3 max 67 alt 2 pred 62
+0 1 1 2 3 3 2 4 4 5 4 6 5 7 5 4 5 5 max 98 alt 2 pred 84
+0 1 2 3 2 1 2 3 4 max 90 alt 2 pred 75
+0 1 2 3 4 2 5 5 3 4 6 5 6 1 4 5 6 6 5 7 max 99 alt 6 pred 94
+0 1 1 2 2 3 3 4 5 3 6 4 4 3 4 max 99 alt 1 pred 91
+0 1 2 1 3 2 2 4 3 3 5 6 4 5 4 5 6 6 7 max 99 alt 3 pred 98
+0 1 1 2 2 3 max 79 alt 2 pred 63
+0 1 1 2 3 2 3 3 max 99 alt 1 pred 46
+0 1 1 2 2 3 2 2 max 84 alt 2 pred 81
+0 1 1 2 3 2 2 3 3 4 4 4 5 4 5 3 3 4 max 100 alt 3 pred 93
+0 1 2 3 1 2 3 4 3 2 2 max 92 alt 2 pred 87
+0 1 1 2 2 2 3 4 4 5 max 84 alt 2 pred 74
+0 1 2 3 4 2 5 3 4 3 5 4 3 4 5 4 5 max 89 alt 3 pred 73
+0 1 1 2 3 2 3 2 2 3 3 3 4 4 max 85 alt 3 pred 80
+0 1 1 2 3 4 max 95 alt 1 pred 77
+0 1 2 1 3 4 5 2 2 2 3 5 4 3 3 4 4 4 4 5 max 84 alt 2 pred 82
+0 1 1 2 2 2 3 4 3 2 3 3 4 4 max 97 alt 2 pred 46
+0 1 2 3 4 4 5 3 6 7 8 6 4 7 7 max 69 alt 0 pred 52
+0 1 2 3 4 2 3 1 2 4 max 79 alt 2 pred 49
+0 1 1 2 2 3 2 4 3 3 4 4 5 max 96 alt 1 pred 61
+0 1 1 2 2 2 3 4 3 5 3 2 3 3 4 max 76 alt 2 pred 68
+0 1 2 1 2 2 3 3 3 4 4 5 2 5 6 7 3 5 3 6 max 95 alt 3 pred 93
+0 1 1 2 3 4 5 2 3 3 4 2 4 5 5 4 4 3 max 97 alt 4 pred 96
+0 1 2 3 4 5 5 max 97 alt 1 pred 27
+0 1 2 1 2 3 3 4 3 3 max 99 alt 1 pred 92
+0 1 2 2 1 3 3 4 3 4 max 93 alt 3 pred 90
+0 1 2 1 3 2 4 max 83 alt 1 pred 55
+0 1 2 3 1 4 5 4 6 3 5 4 6 7 5 2 7 max 97 alt 2 pred 85
+0 1 2 2 3 4 5 6 max 36 alt 2 pred 30
+0 1 2 1 3 4 2 4 3 4 3 max 55 alt 3 pred 51
+0 1 1 2 3 2 3 4 3 5 3 4 4 max 93 alt 1 pred 48
+0 1 1 2 2 3 4 2 3 max 77 alt 2 pred 73
+0 1 2 2 3 3 1 2 max 83 alt 1 pred 6
+0 1 1 2 3 2 3 max 67 alt 1 pred 44
+0 1 1 2 2 3 2 3 3 3 4 max 94 alt 1 pred 84
+0 1 1 2 2 3 2 4 5 4 6 3 3 max 97 alt 1 pred 77
+0 1 2 1 2 3 4 max 82 alt 1 pred 75
+0 1 2 1 3 4 3 5 2 2 3 3 5 4 6 max 95 alt 2 pred 76
+0 1 2 3 4 1 4 5 2 2 3 max 86 alt 1 pred 68
+0 1 2 3 4 2 3 1 max 77 alt 4 pred 55
+0 1 2 1 2 2 3 3 4 2 max 86 alt 2 pred 52
+0 1 1 2 3 4 2 4 3 5 4 5 6 3 4 max 94 alt 4 pred 82
+0 1 1 2 3 4 4 2 5 3 2 4 max 98 alt 4 pred 50
+0 1 1 2 3 2 2 3 3 3 4 3 3 4 4 5 4 6 4 max 83 alt 3 pred 68
+0 1 1 2 3 2 3 2 3 2 3 3 4 4 max 96 alt 2 pred 81
+0 1 1 2 3 3 max 85 alt 3 pred 38
+0 1 2 3 2 3 1 4 2 3 5 4 max 100 alt 1 pred 97
+0 1 2 3 4 1 5 4 2 3 6 4 7 5 7 5 max 75 alt 1 pred 68
+0 1 2 2 3 3 4 3 4 5 1 2 max 83 alt 1 pred 80
+0 1 2 3 1 2 4 4 5 3 3 max 89 alt 1 pred 65
+0 1 2 2 3 3 1 max 96 alt 2 pred 90
+0 1 2 3 4 5 3 6 7 8 5 2 max 98 alt 3 pred 65
+0 1 2 2 3 4 4 5 3 6 6 3 max 88 alt 0 pred 78
+0 1 2 1 2 3 3 4 max 97 alt 3 pred 48
+0 1 1 2 3 4 2 2 3 4 5 3 4 5 6 7 7 max 88 alt 2 pred 87
+0 1 2 3 2 4 5 3 6 6 3 7 3 4 7 4 4 7 7 4 max 71 alt 4 pred 50
+0 1 2 1 3 4 5 2 5 3 4 6 2 4 max 99 alt 1 pred 90
+0 1 2 2 3 3 4 4 1 5 4 3 5 3 2 max 57 alt 2 pred 52
+0 1 2 3 4 5 max 98 alt 1 pred 65
+0 1 1 2 2 2 3 max 88 alt 2 pred 86
+0 1 2 2 3 3 max 92 alt 0 pred 57
+0 1 2 3 3 4 5 6 7 6 4 max 82 alt 3 pred 81
+0 1 2 3 1 2 3 4 4 3 max 49 alt 1 pred 46
+0 1 2 1 2 2 max 92 alt 2 pred 57
+0 1 2 3 4 5 5 6 6 max 38 alt 1 pred 35
+0 1 1 2 2 max 2 alt 2 pred -35
+0 1 1 2 2 max 100 alt 1 pred 95
+0 1 1 2 2 max 70 alt 2 pred 67
+0 1 1 2 2 3 4 max 78 alt 2 pred 39
+0 1 2 3 3 4 4 5 6 4 5 5 6 7 2 max 97 alt 2 pred 90
+0 1 1 2 2 3 3 4 max 99 alt 1 pred 95
+0 1 2 2 3 3 3 1 4 2 5 6 4 4 5 2 7 3 5 max 100 alt 4 pred 72
+0 1 1 2 3 2 2 3 4 3 5 5 3 4 6 7 5 5 max 91 alt 2 pred 82
+0 1 2 1 2 3 3 4 5 4 4 2 4 6 5 3 max 88 alt 3 pred 82
+0 1 2 1 2 3 4 3 4 5 5 6 6 3 max 96 alt 1 pred 90
+0 1 2 2 3 1 max 94 alt 3 pred 41
+0 1 2 3 2 4 3 1 4 max 70 alt 2 pred 16
+0 1 2 3 4 3 4 4 5 1 6 5 6 7 4 6 7 5 max 89 alt 4 pred 76
+0 1 2 3 4 5 4 6 2 5 1 3 3 max 78 alt 1 pred 64
+0 1 2 2 3 4 5 max 82 alt 0 pred 61
+0 1 2 2 3 4 5 3 6 3 3 4 4 7 5 max 75 alt 3 pred 46
+0 1 2 1 3 2 2 4 max 52 alt 4 pred -6
+0 1 1 2 2 max 76 alt 1 pred 69
+0 1 1 2 2 2 3 4 4 3 3 3 4 2 max 77 alt 3 pred 73
+0 1 2 2 1 2 2 3 max 100 alt 2 pred 97
+0 1 1 2 2 2 2 3 3 3 3 4 3 3 4 max 96 alt 3 pred 94
+0 1 2 2 3 1 3 4 3 3 4 2 5 4 6 7 4 2 5 8 max 96 alt 2 pred 78
+0 1 2 2 1 3 max 38 alt 1 pred 28
+0 1 2 3 3 4 4 5 5 6 4 5 2 5 6 7 6 7 max 98 alt 5 pred 94
+0 1 2 2 3 3 3 4 1 4 4 3 5 4 5 5 6 2 max 84 alt 6 pred 78
+0 1 2 3 1 2 4 4 5 2 6 3 max 91 alt 2 pred 89
+0 1 1 2 2 2 3 3 4 5 4 6 7 6 3 max 96 alt 3 pred 83
+0 1 2 3 3 4 2 3 4 1 2 5 6 7 max 81 alt 3 pred 78
+0 1 2 2 3 1 3 max 78 alt 2 pred 64
+0 1 2 1 2 max 37 alt 2 pred 22
+0 1 2 3 1 3 4 2 2 5 max 93 alt 2 pred 84
+0 1 1 2 2 2 3 2 4 3 4 5 5 4 6 6 max 89 alt 2 pred 82
+0 1 2 3 2 4 1 3 3 4 4 4 3 4 5 5 5 6 5 max 97 alt 4 pred 73
+0 1 2 3 2 1 3 4 4 max 66 alt 4 pred 61
+0 1 1 2 3 4 4 5 5 2 6 3 6 5 2 6 max 96 alt 1 pred 77
+0 1 2 1 3 max 44 alt 2 pred 43
+0 1 2 2 3 4 3 3 4 3 4 1 max 94 alt 3 pred 48
+0 1 2 2 3 3 3 1 3 2 4 4 5 2 5 5 3 4 3 max 99 alt 3 pred 85
+0 1 2 3 2 3 3 4 4 4 4 3 4 5 5 1 2 max 55 alt 1 pred 49
+0 1 1 2 2 2 max 77 alt 2 pred -13
+0 1 2 3 2 3 4 5 6 6 5 3 6 6 7 7 7 8 max 73 alt 3 pred 72
+0 1 2 3 1 4 max 72 alt 1 pred -14
+0 1 1 2 3 4 5 max 36 alt 2 pred 30
+0 1 2 2 3 max 80 alt 3 pred 64
+0 1 1 2 2 3 2 4 5 4 3 6 3 4 3 6 3 5 max 98 alt 1 pred 93
+0 1 2 3 1 2 2 3 3 3 2 3 4 4 4 5 5 6 max 97 alt 4 pred 82
+0 1 2 3 3 4 2 1 4 3 5 3 max 99 alt 1 pred 84
+0 1 1 2 2 2 3 3 3 4 5 6 5 3 4 3 4 6 max 80 alt 3 pred 61
+0 1 2 3 2 1 3 4 2 max 99 alt 2 pred 88
+0 1 1 2 3 3 4 4 4 2 3 5 5 max 99 alt 1 pred 73
+0 1 2 2 3 4 5 4 5 1 6 7 5 5 8 9 6 7 2 6 max 89 alt 5 pred 87
+0 1 2 1 2 3 4 4 2 3 3 max 45 alt 2 pred 28
+0 1 2 1 3 3 2 3 max 94 alt 3 pred 58
+0 1 2 1 2 3 4 3 3 4 max 96 alt 4 pred 92
+0 1 2 3 4 1 max 28 alt 1 pred -5
+0 1 2 2 3 1 3 4 2 2 3 max 97 alt 2 pred 81
+0 1 2 3 2 3 4 5 3 max 68 alt 0 pred 66
+0 1 2 1 2 3 2 3 3 4 4 3 5 max 91 alt 3 pred 69
+0 1 2 3 4 1 max 67 alt 3 pred 35
+0 1 1 2 3 2 2 4 3 3 4 5 2 max 99 alt 2 pred 97
+0 1 1 2 3 2 4 5 5 3 6 3 6 6 4 max 80 alt 3 pred 76
+0 1 2 1 2 3 2 3 4 3 5 6 4 3 7 6 5 8 max 99 alt 2 pred 91
+0 1 2 3 3 max 97 alt 3 pred 1
+0 1 2 3 1 max 83 alt 1 pred 67
+0 1 2 2 1 3 2 3 4 3 4 4 3 4 3 4 max 97 alt 3 pred 93
+0 1 2 3 2 1 max 12 alt 1 pred -41
+0 1 2 3 1 4 2 3 5 4 max 81 alt 3 pred 66
+0 1 2 3 1 2 2 2 3 3 3 3 4 3 max 85 alt 3 pred 68
+0 1 2 2 1 3 4 4 5 3 6 7 5 max 98 alt 2 pred 70
+0 1 2 3 4 4 5 max 43 alt 1 pred 34
+0 1 1 2 3 4 4 5 6 2 max 93 alt 2 pred 60
+0 1 1 2 2 3 4 3 5 4 6 4 7 max 99 alt 1 pred 95
+0 1 1 2 3 4 4 3 5 2 max 96 alt 2 pred 78
+0 1 2 3 4 1 2 2 4 5 max 72 alt 2 pred 69
+0 1 1 2 2 2 max 19 alt 2 pred -29
+0 1 2 1 3 4 3 5 2 4 5 2 3 2 4 4 3 3 5 max 97 alt 5 pred 80
+0 1 2 3 4 5 6 max 93 alt 3 pred 76
+0 1 2 1 2 3 2 4 5 6 7 max 99 alt 2 pred 61
+0 1 2 1 2 3 2 3 4 2 3 3 4 max 99 alt 2 pred 80
+0 1 2 3 4 1 2 3 3 2 5 4 4 5 max 95 alt 3 pred 69
+0 1 1 2 3 4 2 2 2 3 max 88 alt 2 pred 80
+0 1 2 3 3 4 max 74 alt 1 pred 15
+0 1 2 2 3 1 2 3 4 max 47 alt 2 pred 33
+0 1 2 1 2 2 2 3 3 4 3 4 5 3 3 4 5 6 4 3 max 84 alt 3 pred 82
+0 1 2 1 2 3 2 2 3 4 3 3 4 4 3 5 4 5 max 75 alt 2 pred 69
+0 1 2 3 1 2 3 2 3 4 4 3 3 4 max 99 alt 1 pred 95
+0 1 2 1 2 3 3 4 3 5 2 max 59 alt 3 pred 54
+0 1 2 3 4 max 95 alt 0 pred 78
+0 1 2 2 3 3 4 5 max 86 alt 0 pred 53
+0 1 2 1 2 3 3 4 3 3 max 92 alt 3 pred 85
+0 1 1 2 2 3 3 2 max 74 alt 3 pred 58
+0 1 2 3 4 5 4 5 6 1 max 86 alt 1 pred 77
+0 1 1 2 3 2 4 2 3 4 3 3 4 4 5 6 max 97 alt 1 pred 51
+0 1 2 1 3 2 3 3 4 2 5 4 3 4 4 5 6 2 4 3 max 95 alt 2 pred 92
+0 1 2 3 2 3 max 97 alt 3 pred 45
+0 1 2 2 3 3 4 5 4 4 5 5 4 max 96 alt 2 pred 65
+0 1 2 1 3 4 2 3 5 5 6 3 4 6 6 2 3 5 3 4 max 98 alt 1 pred 71
+0 1 1 2 3 4 2 2 3 3 4 4 5 6 5 max 91 alt 1 pred 55
+0 1 1 2 2 3 4 2 3 3 4 4 5 5 6 4 7 max 78 alt 4 pred 76
+0 1 1 2 2 3 2 3 3 3 max 96 alt 2 pred 82
+0 1 1 2 2 3 4 4 2 3 2 3 4 4 5 3 6 5 6 max 93 alt 2 pred 87
+0 1 2 1 2 3 3 2 4 3 4 4 5 max 91 alt 1 pred 86
+0 1 1 2 3 4 3 4 5 4 2 6 5 7 5 6 6 8 6 max 96 alt 1 pred 72
+0 1 2 1 3 3 4 2 4 4 2 3 3 max 71 alt 3 pred 63
+0 1 2 1 2 3 2 3 4 3 5 6 max 99 alt 2 pred 72
+0 1 1 2 3 4 4 5 5 6 2 6 7 2 5 7 7 max 92 alt 2 pred 78
+0 1 1 2 3 2 2 4 4 5 max 96 alt 2 pred 85
+0 1 2 1 2 3 4 5 3 6 3 6 max 80 alt 3 pred 56
+0 1 1 2 3 max 75 alt 1 pred 53
+0 1 2 3 4 5 5 3 6 1 2 max 78 alt 3 pred 49
+0 1 1 2 2 2 3 4 3 3 3 3 4 5 5 5 5 4 4 max 87 alt 2 pred 82
+0 1 1 2 2 3 2 3 4 3 3 max 57 alt 3 pred 41
+0 1 2 3 4 3 1 4 2 5 3 3 4 5 6 6 max 93 alt 3 pred 82
+0 1 2 2 3 3 4 3 4 4 max 58 alt 3 pred 44
+0 1 1 2 2 3 3 4 max 87 alt 4 pred 75
+0 1 2 3 4 3 5 6 1 4 7 4 max 81 alt 1 pred 61
+0 1 2 3 4 3 4 1 5 5 2 6 6 7 8 max 97 alt 1 pred 88
+0 1 2 2 3 3 4 4 5 max 74 alt 0 pred 57
+0 1 2 1 3 4 2 3 3 5 4 max 88 alt 1 pred 53
+0 1 2 2 3 3 4 max 97 alt 0 pred 93
+0 1 2 2 3 4 3 max 79 alt 2 pred 69
+0 1 2 2 3 3 3 3 4 5 6 5 4 4 4 5 6 5 6 max 76 alt 0 pred 74
+0 1 2 3 4 5 5 3 6 1 max 75 alt 3 pred 74
+0 1 2 2 3 4 5 3 6 4 7 5 max 96 alt 0 pred 86
+0 1 1 2 2 2 3 4 4 3 3 2 5 5 5 6 max 57 alt 2 pred 46
+0 1 2 3 4 1 5 6 2 3 max 98 alt 2 pred 47
+0 1 2 2 3 max 95 alt 2 pred 28
+0 1 1 2 2 2 3 4 5 5 6 3 2 3 4 4 4 6 6 max 95 alt 2 pred 92
+0 1 2 1 2 3 3 2 3 4 4 5 2 5 max 72 alt 2 pred 60
+0 1 1 2 2 3 3 4 3 5 4 5 3 5 2 max 96 alt 1 pred 89
+0 1 2 3 2 max 75 alt 2 pred 44
+0 1 2 1 3 max 58 alt 1 pred 26
+0 1 1 2 2 3 2 3 4 5 max 79 alt 3 pred 61
+0 1 2 3 1 3 4 4 5 max 94 alt 1 pred 93
+0 1 2 3 1 max 45 alt 1 pred 44
+0 1 2 2 3 4 3 4 1 max 78 alt 1 pred 64
+0 1 2 2 1 3 2 4 4 3 5 3 3 3 6 5 4 max 79 alt 3 pred 67
+0 1 2 1 2 3 3 4 4 4 3 5 4 5 5 4 5 2 5 6 max 88 alt 3 pred 85
+0 1 1 2 3 3 4 2 5 2 5 2 6 max 100 alt 2 pred 80
+0 1 1 2 3 4 5 2 6 2 2 3 3 7 3 4 max 82 alt 2 pred 81
+0 1 2 1 2 3 2 3 2 3 3 4 4 5 5 5 6 3 max 97 alt 3 pred 81
+0 1 2 3 4 3 4 5 2 4 max 94 alt 3 pred 90
+0 1 1 2 2 max 96 alt 2 pred 85
+0 1 2 3 4 4 5 5 3 4 6 1 6 5 5 2 4 5 7 max 94 alt 4 pred 93
+0 1 1 2 3 2 4 2 5 3 6 4 2 3 3 4 3 max 87 alt 3 pred 76
+0 1 2 1 2 3 4 2 3 4 3 4 4 5 max 75 alt 4 pred 65
+0 1 1 2 2 3 4 3 5 4 6 7 3 4 5 6 2 8 max 84 alt 4 pred 66
+0 1 2 3 4 4 2 max 15 alt 0 pred -6
+0 1 2 3 1 max -4 alt 1 pred -24
+0 1 2 3 4 5 6 6 4 2 3 4 4 5 7 5 5 max 86 alt 0 pred 66
+0 1 2 3 2 3 4 5 3 6 3 6 7 4 max 92 alt 0 pred 78
+0 1 2 3 4 3 4 4 5 5 5 5 5 6 7 8 6 5 max 90 alt 5 pred 82
+0 1 2 1 3 max 96 alt 1 pred 26
+0 1 2 3 3 4 4 5 5 6 max 98 alt 1 pred 89
+0 1 2 3 2 4 max 98 alt 2 pred 86
+0 1 2 3 4 4 1 5 5 6 7 max 97 alt 1 pred 95
+0 1 2 3 4 max 90 alt 2 pred 68
+0 1 1 2 2 3 2 max 58 alt 3 pred 42
+0 1 2 3 3 4 2 5 6 7 3 6 3 4 7 4 5 7 1 max 92 alt 3 pred 83
+0 1 2 1 2 2 2 3 max 91 alt 2 pred 74
+0 1 2 1 3 4 max 80 alt 1 pred 55
+0 1 1 2 2 3 3 4 3 4 max 99 alt 4 pred 92
+0 1 1 2 2 2 max 48 alt 2 pred 41
+0 1 2 2 3 max 61 alt 3 pred 48
+0 1 1 2 3 2 3 4 5 2 6 7 5 4 8 9 3 max 64 alt 5 pred 46
+0 1 1 2 3 2 4 3 3 2 4 3 3 3 max 79 alt 1 pred 72
+0 1 1 2 3 2 4 5 6 3 2 3 4 5 4 5 6 3 7 6 max 98 alt 2 pred 65
+0 1 1 2 2 3 3 4 4 5 5 4 3 max 78 alt 1 pred 71
+0 1 2 3 4 1 5 max 80 alt 3 pred 57
+0 1 2 1 3 2 3 3 2 4 max 43 alt 2 pred 30
+0 1 2 1 2 2 3 3 4 max 89 alt 4 pred 58
+0 1 2 2 3 4 3 4 5 max 68 alt 2 pred 57
+0 1 1 2 3 2 3 3 4 4 5 max 94 alt 2 pred 82
+0 1 2 3 1 2 3 max 96 alt 2 pred 95
+0 1 1 2 2 3 4 2 3 3 4 2 3 3 4 3 5 5 5 4 max 99 alt 2 pred 97
+0 1 1 2 3 4 4 5 6 6 7 max 90 alt 1 pred 85
+0 1 1 2 3 2 3 3 4 4 3 4 4 5 5 6 4 4 max 99 alt 1 pred 72
+0 1 2 2 3 1 2 4 3 3 4 5 5 4 max 80 alt 4 pred 75
+0 1 2 3 4 3 5 2 max 91 alt 3 pred 73
+0 1 2 2 3 3 3 4 3 5 6 7 4 4 5 5 6 7 8 1 max 91 alt 5 pred 73
+0 1 1 2 3 4 2 2 5 max 94 alt 1 pred 86
+0 1 2 3 4 3 4 4 5 5 5 5 6 7 8 9 5 4 6 max 77 alt 0 pred 74
+0 1 1 2 2 2 3 max 85 alt 2 pred 64
+0 1 1 2 2 3 3 4 3 4 2 max 87 alt 2 pred 85
+0 1 2 3 4 5 5 3 6 7 4 6 7 4 max 92 alt 1 pred 63
+0 1 1 2 3 3 4 4 2 3 5 2 5 3 max 65 alt 1 pred 60
+0 1 2 3 3 4 5 6 4 7 4 8 5 max 94 alt 0 pred 87
+0 1 1 2 2 3 max 73 alt 2 pred 49
+0 1 1 2 2 3 4 3 5 2 4 5 5 5 6 6 max 90 alt 5 pred 89
+0 1 2 3 3 4 4 1 2 5 6 4 2 5 5 4 max 91 alt 4 pred 90
+0 1 1 2 2 3 4 3 4 3 4 max 100 alt 1 pred 93
+0 1 2 1 2 3 2 3 max 80 alt 3 pred 75
+0 1 2 1 2 2 3 max 89 alt 2 pred 64
+0 1 2 3 4 5 5 6 3 4 6 2 1 5 6 7 4 3 7 6 max 91 alt 7 pred 56
+0 1 2 3 1 2 4 5 4 5 6 3 max 85 alt 1 pred 84
+0 1 1 2 3 2 3 4 max 86 alt 2 pred 71
+0 1 2 2 1 2 3 3 2 4 max 91 alt 2 pred 83
+0 1 2 2 1 3 2 3 3 2 3 3 4 4 4 5 max 88 alt 3 pred 78
+0 1 1 2 3 2 4 2 2 3 3 4 5 3 5 4 6 6 max 95 alt 3 pred 84
+0 1 2 3 3 4 5 5 6 7 7 6 max 90 alt 3 pred 66
+0 1 2 3 4 4 5 3 4 5 2 6 3 7 5 6 3 6 max 93 alt 3 pred 79
+0 1 2 2 1 3 4 2 3 3 4 3 2 3 3 3 max 100 alt 3 pred 93
+0 1 2 2 3 4 4 1 3 4 5 3 4 5 max 76 alt 4 pred 60
+0 1 2 2 1 3 3 4 3 4 2 5 6 3 5 6 4 max 98 alt 3 pred 71
+0 1 2 3 4 5 5 4 6 7 6 5 2 6 8 7 7 6 max 77 alt 2 pred 74
+0 1 2 3 4 2 3 3 3 5 4 max 95 alt 3 pred 92
+0 1 2 1 2 3 2 max 100 alt 2 pred 7
+0 1 2 3 2 1 3 4 3 5 4 4 max 93 alt 1 pred 58
+0 1 2 1 2 3 2 3 4 4 3 5 3 5 2 6 max 100 alt 2 pred 79
+0 1 1 2 2 2 3 3 3 4 5 max 98 alt 1 pred 42
+0 1 1 2 3 2 3 3 4 4 max 99 alt 3 pred 90
+0 1 2 3 3 2 max 76 alt 0 pred 72
+0 1 2 1 2 3 3 4 3 4 5 5 max 98 alt 4 pred 83
+0 1 1 2 2 2 3 2 3 3 4 4 3 3 5 3 4 4 5 max 97 alt 3 pred 86
+0 1 1 2 2 3 3 4 4 2 3 4 2 4 5 5 5 5 5 max 81 alt 2 pred 78
+0 1 1 2 2 3 3 2 3 4 3 4 3 max 31 alt 2 pred 10
+0 1 2 2 3 3 4 1 2 3 4 5 6 6 7 max 100 alt 1 pred 84
+0 1 2 3 2 3 3 4 3 5 4 4 max 95 alt 0 pred 85
+0 1 2 3 4 3 4 4 max 89 alt 0 pred 28
+0 1 2 1 2 2 3 4 2 4 max 71 alt 2 pred 39
+0 1 2 3 4 1 4 5 3 5 4 4 5 6 5 5 2 2 max 92 alt 2 pred 83
+0 1 2 3 4 3 4 1 5 2 6 2 max 88 alt 1 pred 81
+0 1 2 2 3 max 82 alt 0 pred 26
+0 1 2 2 1 3 4 2 5 4 3 5 3 6 3 3 4 4 max 87 alt 1 pred 48
+0 1 2 1 3 3 4 max 47 alt 1 pred 42
+0 1 2 2 1 3 4 max 72 alt 2 pred 30
+0 1 2 3 1 3 2 4 5 2 3 6 7 3 2 5 max 74 alt 2 pred 60
+0 1 2 3 3 4 5 2 6 6 1 4 7 max 99 alt 2 pred 57
+0 1 2 1 3 4 3 5 2 6 7 8 7 3 4 8 2 9 10 5 max 91 alt 1 pred 85
+0 1 1 2 2 3 2 3 4 4 2 3 4 3 3 5 4 5 6 max 95 alt 3 pred 70
+0 1 1 2 2 2 3 3 4 3 4 3 2 3 4 4 3 5 4 max 80 alt 3 pred 79
+0 1 2 1 3 4 4 2 3 max 83 alt 2 pred 63
+0 1 1 2 2 3 3 3 2 max 100 alt 3 pred 65
+0 1 2 2 3 4 3 4 5 max 84 alt 4 pred 76
+0 1 2 3 2 1 3 2 3 3 2 4 4 4 5 3 max 95 alt 3 pred 88
+0 1 2 3 4 5 6 4 1 2 3 7 max 96 alt 1 pred 76
+0 1 1 2 2 3 4 5 3 3 2 5 4 3 3 6 4 4 max 100 alt 3 pred 66
+0 1 2 2 3 max 70 alt 2 pred 30
+0 1 1 2 2 2 3 3 4 4 max 87 alt 2 pred 76
+0 1 1 2 3 4 5 2 max 48 alt 1 pred 7
+0 1 2 3 1 2 4 max 88 alt 3 pred 38
+0 1 2 3 1 2 3 3 4 4 5 5 2 3 6 4 6 5 5 max 81 alt 3 pred 73
+0 1 2 3 3 4 1 2 max 90 alt 1 pred 79
+0 1 1 2 2 3 2 3 3 4 4 4 5 2 3 3 6 max 99 alt 4 pred 96
+0 1 2 3 4 5 6 1 7 2 4 8 max 83 alt 1 pred 54
+0 1 2 3 1 2 4 max 59 alt 2 pred 7
+0 1 1 2 3 4 2 3 3 4 2 3 5 4 6 7 max 95 alt 4 pred 93
+0 1 2 3 4 4 5 5 6 7 3 6 5 4 6 7 7 max 99 alt 0 pred 97
+0 1 2 3 4 3 5 1 6 4 5 6 2 7 max 81 alt 2 pred 54
+0 1 2 2 3 3 1 4 2 3 max 95 alt 2 pred 74
+0 1 2 3 2 1 4 2 2 3 3 3 3 5 6 4 3 4 max 79 alt 4 pred 76
+0 1 1 2 3 2 3 4 4 2 max 68 alt 2 pred 47
+0 1 2 2 3 3 1 4 2 4 3 5 4 max 89 alt 2 pred 84
+0 1 2 3 3 4 4 5 4 5 6 6 2 7 max 99 alt 0 pred 87
+0 1 2 2 3 1 2 2 3 4 3 4 3 3 4 5 4 4 max 93 alt 2 pred 90
+0 1 2 3 2 3 3 4 4 5 3 5 4 4 6 6 5 5 7 max 86 alt 0 pred 58
+0 1 2 1 3 max 92 alt 1 pred 74
+0 1 2 3 3 4 4 5 4 max 92 alt 4 pred 91
+0 1 1 2 3 4 3 4 5 5 6 4 2 6 2 4 max 88 alt 5 pred 76
+0 1 2 1 3 2 4 5 3 5 2 4 6 3 4 max 91 alt 5 pred 73
+0 1 1 2 3 2 2 max 94 alt 1 pred 65
+0 1 2 2 3 3 4 3 4 4 4 5 5 4 max 84 alt 4 pred 68
+0 1 2 3 3 1 2 3 4 4 5 4 5 max 100 alt 4 pred 93
+0 1 2 3 2 4 3 5 3 4 1 4 5 5 6 3 5 6 4 7 max 80 alt 1 pred 72
+0 1 2 3 4 5 6 5 7 6 7 8 8 max 98 alt 3 pred 85
+0 1 2 3 2 max 43 alt 0 pred 12
+0 1 2 3 2 3 4 4 max 75 alt 0 pred 68
+0 1 1 2 2 3 3 max 97 alt 2 pred 84
+0 1 1 2 2 3 2 4 3 4 5 4 3 5 6 4 max 95 alt 3 pred 80
+0 1 2 1 2 3 2 3 3 4 3 4 3 2 3 max 99 alt 4 pred 98
+0 1 2 3 1 4 max 67 alt 1 pred 40
+0 1 2 3 1 2 4 2 max 84 alt 2 pred 79
+0 1 2 1 3 2 4 max 45 alt 1 pred 38
+0 1 2 2 3 4 3 4 3 3 4 5 max 100 alt 3 pred 94
+0 1 1 2 3 2 4 max 66 alt 2 pred 38
+0 1 2 1 2 2 3 4 5 4 3 3 4 4 5 max 60 alt 2 pred 52
+0 1 2 1 2 3 2 4 5 6 max 90 alt 2 pred 70
+0 1 2 1 2 3 3 3 2 4 3 3 4 4 4 4 max 96 alt 1 pred 92
+0 1 1 2 2 3 2 4 3 3 2 4 4 max 88 alt 4 pred 87
+0 1 2 1 2 3 4 4 2 3 3 4 5 5 5 5 3 4 5 max 78 alt 3 pred 70
+0 1 1 2 2 3 4 3 3 5 2 6 4 4 4 4 5 max 97 alt 2 pred 83
+0 1 2 3 2 4 5 6 max 75 alt 2 pred 63
+0 1 2 3 4 3 4 2 5 4 3 1 4 5 5 5 6 4 5 max 99 alt 1 pred 92
+0 1 1 2 2 2 3 3 3 4 4 5 3 4 2 4 3 4 5 5 max 93 alt 3 pred 89
+0 1 1 2 3 2 4 3 4 3 5 6 4 5 6 7 2 2 4 max 87 alt 4 pred 81
+0 1 2 3 4 5 6 2 5 3 7 1 2 3 6 8 7 7 max 92 alt 3 pred 84
+0 1 2 3 4 3 4 4 5 6 2 4 7 5 6 5 5 5 6 max 89 alt 2 pred 83
+0 1 2 1 2 3 3 4 4 5 6 3 7 7 5 6 8 6 5 max 96 alt 1 pred 91
+0 1 2 1 2 3 max 67 alt 1 pred 64
+0 1 1 2 2 3 3 2 3 3 4 4 4 5 6 7 5 6 max 47 alt 1 pred 38
+0 1 2 1 3 2 2 3 3 4 4 4 5 5 4 3 max 72 alt 2 pred 55
+0 1 1 2 3 4 4 2 2 3 5 3 4 2 3 3 3 max 76 alt 3 pred 70
+0 1 1 2 3 3 4 4 4 5 max 88 alt 1 pred 83
+0 1 2 3 4 2 3 3 3 5 5 4 4 5 6 6 6 max 92 alt 0 pred 82
+0 1 1 2 2 3 3 3 4 2 5 max 96 alt 2 pred 94
+0 1 2 3 2 1 2 4 max 70 alt 1 pred 48
+0 1 1 2 2 3 3 2 3 4 4 5 4 2 5 6 7 max 100 alt 4 pred 95
+0 1 2 2 3 3 4 3 4 max 84 alt 0 pred 81
+0 1 2 3 3 4 5 4 6 5 6 1 4 5 max 94 alt 1 pred 89
+0 1 1 2 3 2 2 3 2 3 4 max 99 alt 3 pred 89
+0 1 2 2 3 max 80 alt 2 pred 76
+0 1 2 2 3 4 1 2 5 3 max 55 alt 2 pred 4
+0 1 2 2 3 3 1 2 4 3 3 3 max 82 alt 4 pred 76
+0 1 2 2 3 3 1 4 3 2 4 4 max 73 alt 2 pred 63
+0 1 1 2 2 3 2 3 max 87 alt 3 pred 63
+0 1 2 3 4 1 2 3 3 4 3 4 4 5 max 99 alt 1 pred 92
+0 1 1 2 2 2 3 3 4 4 3 4 4 3 4 4 5 5 max 72 alt 2 pred 61
+0 1 2 3 3 4 4 max 89 alt 3 pred 75
+0 1 1 2 2 3 2 2 3 3 4 3 3 3 3 4 4 5 max 77 alt 3 pred 75
+0 1 1 2 3 3 2 4 max 74 alt 2 pred 69
+0 1 2 1 3 3 4 5 4 6 7 5 7 2 8 max 91 alt 3 pred 80
+0 1 1 2 2 3 3 3 4 4 2 2 5 3 4 3 5 5 4 max 87 alt 2 pred 77
+0 1 1 2 2 3 2 4 3 5 4 6 2 5 3 4 3 max 98 alt 2 pred 83
+0 1 1 2 2 3 3 4 4 max 8 alt 2 pred -9
+0 1 1 2 2 3 3 4 4 4 max 94 alt 3 pred 65
+0 1 1 2 2 3 2 3 4 3 4 3 4 5 5 4 max 88 alt 2 pred 78
+0 1 2 1 2 3 3 2 3 4 3 3 5 max 95 alt 3 pred 51
+0 1 2 2 3 4 3 3 5 1 max 67 alt 1 pred 55
+0 1 1 2 2 3 3 2 max 75 alt 3 pred 45
+0 1 1 2 2 2 3 3 4 3 4 2 5 3 6 4 4 max 91 alt 3 pred 45
+0 1 2 1 3 max 91 alt 1 pred 26
+0 1 1 2 2 3 4 5 4 2 5 2 3 6 7 7 max 64 alt 2 pred 54
+0 1 2 3 2 3 4 4 5 5 6 4 3 4 6 6 4 max 98 alt 4 pred 97
+0 1 1 2 3 3 2 4 2 3 5 4 2 4 4 3 5 max 96 alt 3 pred 93
+0 1 1 2 2 2 3 3 2 max 93 alt 2 pred 86
+0 1 1 2 3 2 3 max 92 alt 2 pred 16
+0 1 2 1 3 4 3 4 2 5 3 2 5 4 6 4 3 4 max 86 alt 2 pred 80
+0 1 2 2 3 3 4 1 2 5 6 3 4 max 97 alt 3 pred 87
+0 1 2 2 3 max 77 alt 0 pred -53
+0 1 2 3 3 4 4 max 70 alt 0 pred 65
+0 1 2 1 2 3 2 3 3 3 max 99 alt 2 pred 74
+0 1 2 3 4 5 6 1 2 3 5 4 3 4 max 98 alt 3 pred 76
+0 1 2 1 2 2 3 4 5 3 4 4 2 3 3 6 5 5 4 5 max 99 alt 2 pred 88
+0 1 1 2 2 2 3 3 4 4 3 5 2 4 max 81 alt 2 pred 76
+0 1 2 3 2 3 4 1 4 5 max 98 alt 1 pred 84
+0 1 2 3 2 4 5 1 max 84 alt 5 pred 22
+0 1 2 1 3 2 4 max 84 alt 1 pred 78
+0 1 1 2 3 2 max 77 alt 2 pred -6
+0 1 1 2 2 3 3 max 18 alt 2 pred 0
+0 1 2 2 3 4 3 5 3 4 3 6 4 5 max 84 alt 3 pred 82
+0 1 2 3 1 3 2 4 3 max 81 alt 1 pred 79
+0 1 1 2 3 3 4 4 2 4 4 3 2 5 5 6 5 4 5 max 100 alt 5 pred 94
+0 1 1 2 2 2 3 3 2 3 max 100 alt 3 pred 63
+0 1 1 2 2 3 4 3 2 5 5 2 4 max 100 alt 3 pred 82
+0 1 1 2 2 3 4 2 3 4 3 4 5 5 6 6 4 5 5 max 93 alt 4 pred 92
+0 1 2 3 3 4 4 5 1 5 6 5 max 99 alt 1 pred 46
+0 1 1 2 3 4 4 2 5 3 5 4 4 5 3 6 6 5 max 95 alt 1 pred 94
+0 1 1 2 2 3 3 4 4 3 4 max 95 alt 3 pred 41
+0 1 2 1 3 4 5 2 5 2 2 3 6 4 6 5 3 4 4 7 max 83 alt 2 pred 82
+0 1 2 2 3 3 4 1 3 4 2 5 4 3 max 96 alt 4 pred 84
+0 1 2 1 2 3 2 3 3 4 5 max 60 alt 3 pred 49
+0 1 2 3 4 5 5 6 6 2 3 6 4 7 4 3 max 100 alt 2 pred 91
+0 1 1 2 2 3 3 4 2 3 3 4 4 3 4 5 4 4 max 81 alt 1 pred 40
+0 1 1 2 2 3 3 4 4 4 4 3 5 4 5 5 6 5 4 6 max 100 alt 4 pred 81
+0 1 1 2 3 4 2 4 3 5 4 2 3 3 max 94 alt 3 pred 60
+0 1 1 2 3 2 4 5 3 3 3 4 6 2 4 6 max 88 alt 3 pred 65
+0 1 2 3 4 1 4 5 2 3 5 6 4 2 3 4 6 7 max 92 alt 1 pred 75
+0 1 1 2 2 3 4 max 81 alt 1 pred 71
+0 1 2 1 3 max 92 alt 3 pred 63
+0 1 1 2 2 2 3 3 3 2 max 79 alt 3 pred 51
+0 1 2 3 2 3 3 4 max 1 alt 0 pred -8
+0 1 2 3 3 4 5 4 5 6 max 88 alt 5 pred 84
+0 1 2 3 2 3 1 3 4 2 max 76 alt 2 pred 65
+0 1 1 2 3 2 2 3 4 3 2 4 5 3 4 4 max 98 alt 2 pred 90
+0 1 1 2 3 4 2 3 2 4 5 max 100 alt 3 pred 94
+0 1 1 2 2 3 2 3 4 5 4 5 max 92 alt 1 pred 91
+0 1 2 3 4 1 3 5 4 2 5 4 2 3 max 97 alt 1 pred 91
+0 1 2 2 3 3 4 4 1 5 6 2 3 max 82 alt 2 pred 73
+0 1 2 1 3 4 5 2 2 3 6 6 max 98 alt 2 pred 93
+0 1 1 2 2 3 2 3 3 3 3 4 4 max 61 alt 1 pred 56
+0 1 2 2 1 3 3 4 2 max 77 alt 3 pred 68
+0 1 2 3 1 2 2 3 4 5 5 3 6 3 max 92 alt 1 pred 81
+0 1 1 2 2 3 4 3 5 4 max 78 alt 1 pred 34
+0 1 1 2 3 2 3 2 3 4 4 max 98 alt 4 pred 89
+0 1 1 2 3 2 4 3 max 57 alt 1 pred 30
+0 1 2 3 1 3 2 3 2 4 3 5 4 4 6 4 max 90 alt 2 pred 88
+0 1 2 3 4 4 1 5 5 5 6 2 2 6 7 max 55 alt 2 pred 45
+0 1 1 2 2 3 2 4 3 4 5 5 4 3 max 47 alt 1 pred 46
+0 1 2 1 2 2 2 3 4 4 3 3 3 4 5 max 97 alt 4 pred 84
+0 1 2 1 3 2 3 3 max 86 alt 1 pred 62
+0 1 2 1 2 2 3 max 79 alt 1 pred 66
+0 1 1 2 2 3 3 2 3 4 3 4 5 4 5 max 99 alt 4 pred 65
+0 1 2 3 1 2 2 2 3 3 4 4 5 5 6 3 3 7 3 3 max 95 alt 2 pred 80
+0 1 2 3 4 5 6 7 8 3 8 9 9 10 2 6 max 88 alt 2 pred 84
+0 1 2 3 4 3 4 4 4 5 max 76 alt 1 pred 65
+0 1 1 2 2 2 3 2 4 3 3 max 83 alt 3 pred 71
+0 1 2 1 3 4 5 2 3 6 7 2 4 8 4 3 2 9 max 89 alt 2 pred 86
+0 1 2 3 4 1 2 3 4 5 3 4 2 2 max 97 alt 2 pred 94
+0 1 1 2 2 2 3 3 3 4 4 5 5 4 5 2 3 6 max 99 alt 5 pred 75
+0 1 1 2 2 3 4 2 3 5 4 max 99 alt 1 pred 92
+0 1 2 3 1 3 2 2 3 2 3 4 3 3 4 4 3 5 4 5 max 98 alt 4 pred 76
+0 1 1 2 3 4 2 3 4 3 4 5 5 5 3 4 max 98 alt 1 pred 76
+0 1 2 3 2 max 90 alt 0 pred 81
+0 1 2 2 1 2 3 4 max 85 alt 2 pred 82
+0 1 2 2 1 3 4 max 99 alt 2 pred 34
+0 1 2 3 1 3 4 5 4 5 4 5 2 6 6 6 5 max 85 alt 4 pred 80
+0 1 2 3 4 5 max 78 alt 0 pred 67
+0 1 1 2 2 3 3 4 5 5 6 7 6 2 max 94 alt 6 pred 91
+0 1 1 2 2 3 3 2 4 4 5 3 3 4 6 5 6 max 91 alt 6 pred 87
+0 1 2 2 1 2 3 3 3 3 3 max 91 alt 3 pred 57
+0 1 1 2 3 3 2 4 4 4 5 2 2 max 94 alt 2 pred 67
+0 1 2 2 3 4 5 6 4 3 5 4 6 1 7 6 2 2 max 90 alt 3 pred 88
+0 1 2 1 3 2 2 3 3 3 3 4 max 100 alt 3 pred 86
+0 1 2 2 3 3 3 4 1 4 max 89 alt 1 pred 35
+0 1 2 3 4 2 3 3 4 4 5 3 4 max 37 alt 4 pred 25
+0 1 2 3 1 2 2 3 4 3 5 4 5 4 5 4 6 6 3 6 max 96 alt 4 pred 89
+0 1 2 2 3 3 1 4 5 2 4 5 6 5 7 6 max 90 alt 5 pred 79
+0 1 2 3 3 1 2 3 4 2 4 2 3 3 max 97 alt 4 pred 78
+0 1 2 2 1 3 3 4 5 4 5 2 5 6 4 5 6 5 2 6 max 96 alt 2 pred 93
+0 1 2 3 3 2 4 max 19 alt 0 pred 18
+0 1 2 2 1 3 4 2 5 3 6 4 3 2 6 5 max 92 alt 4 pred 76
+0 1 1 2 2 2 3 3 3 3 4 4 4 4 max 80 alt 4 pred 50
+0 1 1 2 2 2 3 4 4 3 3 max 66 alt 2 pred 23
+0 1 1 2 3 2 max 35 alt 3 pred 20
+0 1 2 2 3 4 1 max 83 alt 1 pred 61
+0 1 1 2 3 4 2 2 5 max 71 alt 1 pred 57
+0 1 2 2 1 max 78 alt 2 pred 66
+0 1 2 2 3 3 4 4 5 4 5 3 max 96 alt 5 pred 86
+0 1 2 1 2 max 97 alt 2 pred 47
+0 1 1 2 2 3 3 4 2 3 3 5 max 89 alt 3 pred 29
+0 1 2 1 3 2 2 2 4 3 5 6 3 max 90 alt 3 pred 38
+0 1 1 2 2 3 4 4 max 88 alt 2 pred 83
+0 1 2 1 3 4 2 max 85 alt 1 pred 76
+0 1 2 2 3 max 55 alt 2 pred 2
+0 1 2 2 1 3 4 2 3 max 70 alt 3 pred 67
+0 1 2 2 3 3 4 5 6 6 4 3 4 5 6 4 max 99 alt 2 pred 97
+0 1 1 2 3 3 4 4 5 2 5 4 3 2 5 6 7 5 6 max 98 alt 3 pred 86
+0 1 1 2 3 4 5 5 6 6 7 4 2 2 3 6 max 99 alt 2 pred 97
+0 1 2 2 3 4 3 4 4 5 6 7 6 7 5 3 4 3 max 90 alt 0 pred 74
+0 1 2 2 3 1 4 3 2 3 max 94 alt 1 pred 75
+0 1 2 3 4 5 1 2 6 5 7 8 9 6 2 6 10 3 2 10 max 93 alt 2 pred 72
+0 1 1 2 3 2 2 4 3 4 5 4 5 3 max 94 alt 3 pred 68
+0 1 1 2 2 max 98 alt 1 pred 30
+0 1 2 1 2 3 2 4 2 5 max 84 alt 2 pred 44
+0 1 2 1 3 2 3 4 5 2 4 max 97 alt 1 pred 64
+0 1 2 3 3 1 4 2 2 3 4 5 5 6 max 99 alt 3 pred 82
+0 1 1 2 2 3 4 2 5 6 3 3 7 6 max 93 alt 1 pred 68
+0 1 1 2 3 4 5 2 6 3 4 2 7 max 91 alt 2 pred 79
+0 1 1 2 2 2 3 4 3 4 3 3 2 4 5 4 6 4 5 3 max 100 alt 2 pred 68
+0 1 2 3 2 4 5 5 3 max 87 alt 0 pred 77
+0 1 2 3 4 5 3 2 6 3 4 4 6 7 1 5 2 3 max 94 alt 1 pred 83
+0 1 1 2 3 max 79 alt 1 pred 50
+0 1 2 2 3 1 2 3 3 4 4 5 5 3 4 4 5 4 5 max 83 alt 4 pred 77
+0 1 2 2 1 3 2 3 4 4 5 3 4 5 4 5 3 5 6 5 max 84 alt 2 pred 80
+0 1 2 1 2 max 99 alt 1 pred 27
+0 1 2 3 2 1 3 4 4 3 2 max 81 alt 2 pred 77
+0 1 2 2 3 3 1 4 5 6 4 6 4 7 5 7 8 max 99 alt 4 pred 82
+0 1 2 2 1 3 4 3 5 2 3 3 6 5 4 max 86 alt 1 pred 74
+0 1 2 2 3 3 1 2 4 3 4 3 4 5 max 79 alt 4 pred 77
+0 1 2 3 4 5 6 7 4 5 5 6 max 89 alt 6 pred 73
+0 1 2 3 4 1 3 2 max 81 alt 1 pred 50
+0 1 2 3 2 3 3 3 4 5 5 6 1 7 4 5 4 6 max 100 alt 1 pred 97
+0 1 2 3 1 4 2 3 4 5 3 4 2 5 4 6 6 4 7 5 max 91 alt 2 pred 82
+0 1 2 3 1 4 5 2 6 3 3 4 3 5 7 4 6 4 5 max 81 alt 3 pred 75
+0 1 2 3 4 1 5 5 6 7 6 4 2 3 6 7 3 2 8 max 91 alt 2 pred 84
+0 1 2 1 2 3 3 4 3 4 3 4 2 4 5 max 89 alt 3 pred 87
+0 1 2 3 1 2 max 99 alt 1 pred 42
+0 1 2 1 2 2 3 3 3 4 max 72 alt 2 pred 61
+0 1 1 2 2 3 3 max 90 alt 3 pred 40
+0 1 2 3 4 4 3 5 5 4 6 6 7 7 8 max 96 alt 1 pred 67
+0 1 2 1 2 max 99 alt 1 pred 98
+0 1 2 1 2 3 2 3 3 4 5 2 4 5 6 3 6 3 4 5 max 94 alt 2 pred 93
+0 1 2 2 3 3 max 79 alt 2 pred 70
+0 1 1 2 3 4 2 3 max 24 alt 1 pred -55
+0 1 1 2 3 4 5 5 2 3 2 6 3 3 6 4 max 81 alt 1 pred 76
+0 1 2 3 4 4 2 5 6 3 5 3 max 100 alt 3 pred 96
+0 1 1 2 2 3 4 4 max 75 alt 1 pred 59
+0 1 2 3 4 max 78 alt 1 pred 76
+0 1 2 2 3 max 92 alt 3 pred 70
+0 1 1 2 2 3 4 max 47 alt 1 pred 40
+0 1 2 2 3 4 4 1 3 5 6 7 8 6 9 5 max 94 alt 1 pred 75
+0 1 2 3 2 3 4 5 4 3 6 4 5 4 5 max 96 alt 0 pred 95
+0 1 2 3 4 3 5 6 4 7 1 8 max 88 alt 1 pred 70
+0 1 2 3 3 4 2 4 5 4 5 6 5 3 6 6 max 70 alt 2 pred 62
+0 1 2 3 3 4 4 4 5 1 5 5 2 6 6 2 6 7 3 max 87 alt 2 pred 85
+0 1 1 2 2 2 3 3 4 5 6 7 7 3 3 3 4 4 8 8 max 100 alt 4 pred 90
+0 1 1 2 3 4 4 5 5 3 2 6 2 6 5 4 5 max 53 alt 2 pred 50
+0 1 2 3 4 3 4 5 max 63 alt 1 pred 33
+0 1 2 2 3 4 3 3 4 4 5 5 6 5 6 4 max 89 alt 3 pred 85
+0 1 1 2 2 2 2 3 4 3 3 3 3 5 4 3 4 5 4 6 max 88 alt 2 pred 80
+0 1 1 2 2 3 2 3 3 2 4 4 4 5 3 max 98 alt 3 pred 76
+0 1 1 2 3 4 2 3 4 2 max 87 alt 1 pred 59
+0 1 2 3 1 4 2 5 3 4 4 5 5 3 3 5 4 6 max 87 alt 1 pred 73
+0 1 2 3 2 4 max 8 alt 2 pred 4
+0 1 1 2 2 2 3 3 3 4 4 5 6 4 max 77 alt 1 pred 68
+0 1 1 2 3 3 4 4 5 6 5 6 7 max 96 alt 1 pred 94
+0 1 1 2 2 3 3 4 3 4 3 4 2 5 4 4 4 4 5 5 max 100 alt 4 pred 86
+0 1 2 2 1 2 3 3 4 4 5 max 75 alt 1 pred 67
+0 1 2 2 3 3 4 4 5 5 5 1 2 6 6 6 6 7 3 max 99 alt 1 pred 89
+0 1 2 3 1 4 4 2 5 3 2 3 max 100 alt 3 pred 99
+0 1 2 1 2 3 4 5 3 2 2 3 5 4 max 98 alt 2 pred 94
+0 1 2 1 2 2 3 3 2 3 3 3 4 4 max 93 alt 3 pred 85
+0 1 2 1 2 3 4 4 5 3 max 85 alt 4 pred 70
+0 1 2 3 2 3 1 2 4 4 3 max 81 alt 2 pred 52
+0 1 2 3 3 4 2 5 4 5 4 5 6 6 6 4 max 98 alt 0 pred 96
+0 1 2 3 3 1 2 4 4 4 5 6 3 2 5 max 74 alt 2 pred 44
+0 1 1 2 3 3 2 4 4 max 89 alt 1 pred 75
+0 1 2 1 3 2 2 3 4 3 4 4 3 4 5 max 95 alt 1 pred 92
+0 1 2 1 2 2 max 97 alt 2 pred 83
+0 1 2 2 1 3 max 72 alt 2 pred 37
+0 1 1 2 2 3 3 4 5 6 2 4 6 5 3 7 7 4 4 max 98 alt 2 pred 91
+0 1 2 1 2 2 3 3 2 4 4 5 3 3 5 6 5 4 7 6 max 80 alt 2 pred 63
+0 1 2 2 1 2 3 3 max 98 alt 2 pred 85
+0 1 1 2 2 3 4 3 2 4 3 4 4 max 66 alt 3 pred 63
+0 1 1 2 2 3 2 4 max 78 alt 2 pred 38
+0 1 1 2 3 4 2 5 3 3 6 4 4 2 max 89 alt 2 pred 88
+0 1 2 3 3 4 4 5 4 5 6 6 max 99 alt 0 pred 75
+0 1 2 1 2 2 3 4 5 6 3 7 8 3 2 9 8 4 5 max 91 alt 2 pred 40
+0 1 2 2 3 3 4 3 4 5 6 1 4 2 5 7 8 max 84 alt 3 pred 69
+0 1 1 2 2 2 3 3 4 2 4 4 3 max 87 alt 3 pred 76
+0 1 2 3 2 1 2 4 3 max 92 alt 3 pred 81
+0 1 2 3 3 4 4 5 4 6 6 5 6 7 max 66 alt 0 pred 43
+0 1 1 2 2 2 3 3 2 3 3 4 3 4 4 4 5 5 5 4 max 88 alt 3 pred 85
+0 1 2 3 2 4 5 max 68 alt 0 pred 42
+0 1 2 2 3 3 4 4 5 3 6 5 4 5 7 4 5 max 91 alt 5 pred 84
+0 1 2 1 2 3 2 3 max 61 alt 2 pred 38
+0 1 1 2 2 2 3 2 4 5 3 3 max 82 alt 4 pred 80
+0 1 2 3 2 4 max 72 alt 2 pred 65
+0 1 2 1 2 2 3 3 4 4 5 5 4 6 max 91 alt 2 pred 79
+0 1 2 1 3 2 2 4 4 3 5 4 3 2 max 77 alt 2 pred 64
+0 1 1 2 2 3 3 3 4 max 86 alt 2 pred 78
+0 1 2 2 3 3 4 3 5 6 5 4 4 5 7 4 5 6 7 7 max 91 alt 3 pred 87
+0 1 2 1 3 2 4 2 5 4 5 5 6 7 6 max 89 alt 1 pred 85
+0 1 2 1 2 3 2 3 3 3 4 4 2 4 5 max 100 alt 3 pred 89
+0 1 1 2 2 3 2 4 3 4 3 4 4 5 5 max 97 alt 4 pred 76
+0 1 1 2 2 2 3 3 2 3 4 4 3 max 90 alt 3 pred 89
+0 1 1 2 2 3 3 2 3 4 4 5 5 3 2 5 6 max 84 alt 3 pred 64
+0 1 2 3 1 2 3 4 2 5 3 4 6 max 96 alt 2 pred 95
+0 1 2 3 3 1 2 2 4 3 5 5 6 4 max 68 alt 4 pred 58
+0 1 1 2 2 3 4 2 3 4 3 4 3 4 2 4 5 5 max 79 alt 5 pred 78
+0 1 2 1 3 4 2 2 5 max 81 alt 3 pred 67
+0 1 1 2 2 2 2 3 3 4 3 5 3 4 3 4 4 5 max 95 alt 2 pred 87
+0 1 2 2 3 3 4 4 1 3 5 2 6 7 3 5 6 4 6 5 max 100 alt 2 pred 82
+0 1 2 1 2 3 4 5 6 2 5 6 2 3 3 7 3 7 8 6 max 97 alt 3 pred 89
+0 1 1 2 2 3 4 max 100 alt 1 pred 62
+0 1 1 2 2 2 2 3 3 max 81 alt 2 pred 53
+0 1 1 2 3 2 3 4 4 2 3 5 4 2 3 4 5 6 5 max 100 alt 2 pred 95
+0 1 1 2 3 2 4 3 3 4 5 5 4 3 6 5 5 4 5 6 max 82 alt 1 pred 51
+0 1 2 2 3 max 96 alt 0 pred 56
+0 1 2 3 3 4 4 5 5 6 6 6 7 2 max 70 alt 0 pred 51
+0 1 2 2 3 1 2 3 3 4 4 5 4 max 98 alt 1 pred 93
+0 1 1 2 2 max 51 alt 2 pred 36
+0 1 2 3 4 2 1 5 3 3 2 max 83 alt 3 pred 44
+0 1 2 3 3 2 4 5 3 4 5 4 4 4 6 5 6 5 7 6 max 81 alt 5 pred 64
+0 1 2 3 3 4 4 5 5 6 7 6 7 5 6 5 6 1 4 max 96 alt 1 pred 92
+0 1 2 1 2 2 2 3 4 3 5 3 3 5 4 max 99 alt 5 pred 86
+0 1 2 3 3 4 1 5 4 4 6 7 5 2 max 87 alt 1 pred 80
+0 1 2 2 3 4 max 100 alt 0 pred 96
+0 1 1 2 2 2 3 3 3 4 3 4 4 3 4 max 80 alt 3 pred 62
+0 1 2 1 2 3 3 3 4 4 4 5 5 6 6 5 max 96 alt 3 pred 83
+0 1 2 1 2 2 3 2 3 4 4 3 4 3 4 5 5 3 5 5 max 100 alt 3 pred 85
+0 1 2 2 3 3 4 5 3 4 4 max 15 alt 0 pred -28
+0 1 2 3 2 3 4 5 1 4 6 5 7 7 3 max 66 alt 3 pred 63
+0 1 2 3 4 5 1 6 3 4 6 7 max 74 alt 3 pred 44
+0 1 1 2 3 2 3 4 3 2 4 max 95 alt 1 pred 90
+0 1 2 3 3 1 2 2 4 3 5 2 3 4 4 5 max 100 alt 3 pred 86
+0 1 2 1 3 4 3 4 2 4 5 5 3 3 4 4 5 5 max 81 alt 1 pred 67
+0 1 2 1 3 2 3 4 3 4 5 6 4 5 6 5 6 7 6 6 max 85 alt 2 pred 84
+0 1 2 2 3 3 max 63 alt 0 pred 42
+0 1 1 2 2 2 3 4 5 3 6 6 3 7 max 96 alt 3 pred 95
+0 1 1 2 3 4 2 2 3 3 max 73 alt 1 pred 45
+0 1 2 3 2 4 4 5 3 6 7 4 7 1 3 8 5 4 max 97 alt 1 pred 64
+0 1 1 2 3 4 3 2 3 4 4 3 5 5 5 4 6 6 max 98 alt 4 pred 71
+0 1 2 3 4 5 4 1 max 99 alt 1 pred 71
+0 1 2 2 3 3 1 4 4 5 6 5 3 2 3 4 max 97 alt 4 pred 70
+0 1 2 3 1 max 85 alt 1 pred 84
+0 1 2 1 2 2 3 3 2 4 3 4 max 95 alt 2 pred 92
+0 1 2 3 3 4 5 4 5 4 6 6 7 6 5 7 8 8 7 9 max 97 alt 0 pred 93
+0 1 2 3 4 5 4 5 6 3 4 6 5 max 76 alt 0 pred 66
+0 1 1 2 3 4 2 3 5 6 6 4 4 7 7 5 5 max 79 alt 4 pred 73
+0 1 1 2 3 2 4 4 2 3 5 5 3 3 6 6 4 6 5 7 max 94 alt 3 pred 91
+0 1 2 3 2 4 max 21 alt 0 pred 12
+0 1 2 3 1 2 4 3 4 5 6 7 7 8 max 84 alt 2 pred 58
+0 1 1 2 3 3 4 2 3 max 79 alt 3 pred 68
+0 1 1 2 2 3 2 3 4 5 3 2 4 4 3 5 max 76 alt 2 pred 59
+0 1 2 3 4 5 3 4 5 5 6 6 6 7 6 1 max 93 alt 4 pred 86
+0 1 2 1 3 4 4 5 2 2 6 2 max 80 alt 2 pred 75
+0 1 2 1 2 3 3 3 4 5 4 4 4 max 54 alt 1 pred 46
+0 1 2 1 2 max 48 alt 2 pred 5
+0 1 2 2 3 max 45 alt 3 pred 21
+0 1 2 3 1 2 2 3 4 2 3 3 4 4 4 5 max 100 alt 2 pred 86
+0 1 2 3 4 5 2 6 3 max 100 alt 2 pred 98
+0 1 2 1 3 2 3 4 3 4 4 2 5 5 2 5 4 6 3 3 max 93 alt 2 pred 84
+0 1 2 3 4 5 3 4 6 1 5 6 7 4 2 max 97 alt 2 pred 59
+0 1 2 3 2 max 34 alt 0 pred 19
+0 1 2 3 1 2 2 3 3 max 50 alt 3 pred 24
+0 1 2 3 4 4 5 6 7 max 74 alt 0 pred 71
+0 1 1 2 3 2 3 4 max 92 alt 2 pred 77
+0 1 2 1 3 4 2 4 3 3 4 4 max 94 alt 3 pred 77
+0 1 2 1 2 3 4 5 2 3 5 4 3 3 4 2 3 max 100 alt 3 pred 99
+0 1 1 2 2 2 3 3 2 max 81 alt 2 pred 67
+0 1 1 2 3 4 2 3 4 4 5 5 4 6 6 7 6 5 7 max 96 alt 1 pred 84
+0 1 1 2 3 4 2 3 5 4 max 42 alt 1 pred 21
+0 1 1 2 2 2 3 3 3 max 96 alt 3 pred 91
+0 1 2 3 4 max 15 alt 0 pred -22
+0 1 2 1 3 4 2 5 4 2 6 max 90 alt 2 pred 80
+0 1 2 1 2 3 3 4 4 4 5 max 89 alt 4 pred 66
+0 1 2 3 1 2 2 3 4 3 max 74 alt 2 pred 73
+0 1 2 3 1 4 2 2 5 3 5 6 3 4 5 7 2 max 94 alt 2 pred 70
+0 1 1 2 3 4 2 max 76 alt 3 pred 43
+0 1 2 3 1 3 4 max 50 alt 1 pred 40
+0 1 1 2 3 4 4 5 6 7 5 8 2 max 89 alt 1 pred 86
+0 1 1 2 3 4 4 2 2 2 5 5 3 3 max 57 alt 3 pred 50
+0 1 1 2 3 2 2 3 3 4 3 max 92 alt 3 pred 88
+0 1 2 3 3 4 4 5 5 4 max 66 alt 4 pred 22
+0 1 1 2 2 3 4 5 2 4 5 6 max 92 alt 4 pred 90
+0 1 1 2 3 4 max 67 alt 3 pred 58
+0 1 1 2 2 3 2 3 max 93 alt 3 pred 66
+0 1 1 2 2 3 3 4 4 2 3 5 3 5 6 4 5 4 max 99 alt 1 pred 82
+0 1 2 2 1 2 3 4 3 4 5 6 2 7 max 66 alt 2 pred 56
+0 1 2 2 3 3 3 4 4 5 max 83 alt 0 pred 60
+0 1 1 2 2 2 3 2 3 4 5 6 7 6 4 3 3 5 7 4 max 93 alt 4 pred 88
+0 1 2 1 3 3 4 2 5 3 2 6 2 5 4 5 6 7 6 3 max 97 alt 4 pred 95
+0 1 2 2 3 4 4 5 3 6 4 5 5 1 6 7 2 3 5 max 85 alt 5 pred 81
+0 1 2 3 1 4 5 2 3 3 6 max 81 alt 1 pred 70
+0 1 2 2 1 2 3 4 3 2 3 3 3 max 63 alt 4 pred 49
+0 1 2 1 3 4 5 6 3 2 2 4 5 6 3 7 6 8 7 max 84 alt 1 pred 83
+0 1 1 2 2 2 3 3 2 3 4 4 max 83 alt 3 pred 69
+0 1 2 3 4 5 6 7 1 3 2 4 5 3 4 2 3 4 5 max 70 alt 4 pred 31
+0 1 2 3 1 2 3 max 38 alt 1 pred 16
+0 1 2 3 4 3 4 1 4 5 5 max 46 alt 4 pred 27
+0 1 2 2 3 4 max 62 alt 0 pred 47
+0 1 2 2 3 3 3 4 3 4 5 5 4 4 5 max 81 alt 4 pred 70
+0 1 2 3 2 3 3 4 5 4 4 5 4 5 6 6 3 max 98 alt 4 pred 60
+0 1 2 2 3 4 3 1 2 5 4 3 4 5 2 4 5 6 max 87 alt 4 pred 82
+0 1 2 3 3 4 2 5 4 3 4 4 5 3 6 6 7 5 7 6 max 91 alt 4 pred 90
+0 1 2 3 2 4 5 6 5 3 3 7 8 6 4 8 7 9 max 96 alt 3 pred 90
+0 1 2 2 3 4 3 4 5 6 4 1 5 4 5 max 96 alt 4 pred 89
+0 1 2 3 3 4 2 4 5 6 7 1 8 3 2 max 82 alt 2 pred 76
+0 1 2 3 1 4 2 3 2 3 2 5 5 max 50 alt 3 pred 47
+0 1 2 2 3 4 5 3 1 2 3 4 max 86 alt 2 pred 73
+0 1 1 2 3 2 2 max 97 alt 2 pred 53
+0 1 2 2 3 4 3 5 3 4 6 7 5 6 4 6 6 max 92 alt 0 pred 86
+0 1 2 1 3 4 5 2 3 6 2 4 6 7 max 96 alt 2 pred 84
+0 1 2 1 2 3 4 max 40 alt 1 pred 20
+0 1 1 2 2 2 3 2 3 3 4 3 4 4 3 4 5 4 5 4 max 84 alt 2 pred 82
+0 1 2 3 2 3 4 4 5 5 6 6 7 7 1 3 3 8 6 5 max 100 alt 3 pred 88
+0 1 2 3 3 4 5 2 3 4 4 6 5 max 92 alt 3 pred 67
+0 1 1 2 2 3 3 2 4 3 3 4 5 2 max 96 alt 3 pred 84
+0 1 2 2 1 2 max 87 alt 2 pred 11
+0 1 2 3 4 3 max 95 alt 0 pred 81
+0 1 2 1 3 4 2 3 5 2 5 4 3 max 98 alt 3 pred 69
+0 1 1 2 3 2 4 5 2 6 3 4 max 70 alt 1 pred 68
+0 1 2 2 3 1 4 2 3 5 6 3 7 6 max 79 alt 1 pred 67
+0 1 2 3 4 1 3 max 79 alt 1 pred 71
+0 1 2 1 2 3 3 4 5 6 max 82 alt 5 pred 76
+0 1 2 1 3 3 2 2 4 2 3 4 3 5 5 4 4 6 3 6 max 99 alt 2 pred 96
+0 1 2 3 2 3 4 4 1 3 5 5 6 6 5 max 99 alt 3 pred 70
+0 1 2 2 3 4 5 3 1 4 4 2 6 3 4 2 3 4 3 7 max 84 alt 3 pred 80
+0 1 1 2 2 3 3 3 4 3 4 4 5 5 2 6 5 max 81 alt 1 pred 79
+0 1 2 1 3 4 4 2 3 5 4 5 3 3 max 91 alt 1 pred 76
+0 1 2 3 1 4 2 3 2 3 4 5 5 6 7 6 4 2 max 97 alt 6 pred 94
+0 1 2 2 3 4 3 4 3 5 4 4 4 5 5 1 max 92 alt 4 pred 90
+0 1 2 1 3 4 3 4 5 4 5 5 6 5 max 71 alt 1 pred 70
+0 1 2 3 3 4 4 5 4 4 5 5 5 6 6 6 5 5 max 95 alt 6 pred 90
+0 1 2 3 4 2 max 98 alt 3 pred 93
+0 1 1 2 2 2 3 4 2 3 3 3 max 70 alt 2 pred 66
+0 1 2 2 1 3 3 4 4 3 2 2 5 3 4 3 4 3 max 85 alt 3 pred 84
+0 1 2 2 3 3 1 4 2 5 2 3 5 4 3 max 95 alt 3 pred 38
+0 1 2 3 1 max 60 alt 1 pred 3
+0 1 2 3 3 4 4 1 4 5 5 2 2 max 92 alt 2 pred 90
+0 1 1 2 2 3 2 3 4 4 3 2 5 5 6 3 3 max 79 alt 2 pred 70
+0 1 2 3 1 max 90 alt 1 pred -21
+0 1 1 2 2 3 4 4 5 2 3 4 5 3 3 4 max 97 alt 1 pred 71
+0 1 2 2 3 4 5 6 7 8 1 3 2 max 90 alt 3 pred 85
+0 1 2 2 1 3 3 4 3 4 4 2 4 5 4 2 6 max 92 alt 2 pred 79
+0 1 1 2 3 2 3 4 5 4 max 70 alt 1 pred 43
+0 1 2 3 1 4 4 3 5 4 6 max 53 alt 1 pred 25
+0 1 2 2 3 3 4 4 1 5 3 5 5 6 6 5 2 4 4 max 98 alt 2 pred 87
+0 1 2 3 1 3 4 2 5 2 6 4 7 4 5 5 6 max 92 alt 2 pred 63

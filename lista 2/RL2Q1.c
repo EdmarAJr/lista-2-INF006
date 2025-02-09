@@ -1,19 +1,19 @@
 /**
 * Considere as seguintes entrada e sáida abaixo:
 
-*             L2Q1.in
-
-         5 8 −1 4 6 9 11 15
-         5 6 7 6 5 4
-
-*                L2Q1.out
-
-     0 1 1 2 2 2 3 4 max 15 a l t 4 pred 11
-     0 1 2 3 2 1 max 7 a l t 2 pred 6
-
+*                  L2Q1.in
+  |---------------------------------------------|
+  |             8 −1 4 6 9 11 15                |
+  |             5 6 7 6 5 4                     |
+  |---------------------------------------------|
+*                  L2Q1.out
+   |---------------------------------------------|
+   |     0 1 1 2 2 2 3 4 max 15 a l t 4 pred 11  |
+   |     0 1 2 3 2 1 max 7 a l t 2 pred 6        |
+   |---------------------------------------------| 
 * Cada linha da entrada consiste em uma lista de números inteiros a ser inserida em árvore binária inicialmente vazia. O número mı́nimo de arestas de um nó à raiz define a altura deste nó. O nó raiz, portanto, tem altura zero. A cada adição de nó, se registra a altura deste. Nós com chave menor se posicionam à esquerda de seu nó pai, aqueles com chave maior ou igual à do nó pai à sua direita.
 
-* Na sáida, você deve registrar a altura de cada nó inserido na sequência informada, o nó com chave máxima, sua altura e seu predecessor (não havendo predecessor, imprima NaN).
+* Na saída, você deve registrar a altura de cada nó inserido na sequência informada, o nó com chave máxima, sua altura e seu predecessor (não havendo predecessor, imprima NaN).
 */
 
 #include <stdio.h>
@@ -40,7 +40,7 @@ typedef struct BSTResult {
     int predecessor;
 } BSTResult;
 
-// Protótipos
+void start();
 void process_line(char *line, BSTResult *result);
 Node* insert(Node **root, int key);
 Node* find_predecessor(Node *root, int key);
@@ -48,33 +48,35 @@ Node* find_max(Node *root);
 void free_tree(Node *root);
 
 int main() {
+    start();
+    return 0;
+}
+
+void start() {
     FILE *input = fopen("L2Q1.in", "r");
     FILE *output = fopen("L2Q1.out", "w");
+        
+    if (!input || !output) {
+        perror("Error opening files.");
+        return;
+    }
+        
     char line[LINE_SIZE];
-
+    BSTResult result;
     while (fgets(line, LINE_SIZE, input)) {
-        BSTResult result = {0};
+        if (line[0] == '\n')
+            continue;
+        result.count = 0;
         process_line(line, &result);
         
-        // Imprime alturas
         for (int i = 0; i < result.count; i++) {
             fprintf(output, "%d ", result.heights[i]);
         }
-        
-        // Imprime max e predecessor
-        if (result.count > 0) {
-            fprintf(output, "max %d alt %d pred ", result.max_key, result.max_height);
-            if (result.predecessor != -1) 
-                fprintf(output, "%d", result.predecessor);
-            else 
-                fprintf(output, "NaN");
-        }
-        fprintf(output, "\n");
+        fprintf(output, "max %d a l t %d pred %d\n", result.max_key, result.max_height, result.predecessor);
     }
-
+    
     fclose(input);
     fclose(output);
-    return 0;
 }
 
 void process_line(char *line, BSTResult *result) {
@@ -85,13 +87,11 @@ void process_line(char *line, BSTResult *result) {
         int key = atoi(token);
         Node *new_node = insert(&root, key);
         
-        // Armazena altura
         result->heights[result->count++] = new_node->height;
         
         token = strtok(NULL, " \n");
     }
     
-    // Encontra máximo e predecessor
     Node *max_node = find_max(root);
     if (max_node) {
         result->max_key = max_node->key;
