@@ -43,7 +43,7 @@ Node* insert_q3(Node *root, int key);
 Node* remove_node(Node *root, int key, bool *removed);
 Node* find_min(Node *root);
 void update_heights(Node *node, int current_height);
-void in_order_print_q3(Node *node, FILE *output);
+void in_order_print_q3(Node *node, FILE *output, bool *first);
 void free_tree(Node *root);
 
 int main() {
@@ -93,7 +93,9 @@ void process_line_q3(char *line, FILE *output) {
     }
     
     update_heights(root, 0);
-    in_order_print_q3(root, output);
+    
+    bool first = true;
+    in_order_print_q3(root, output, &first);
     fprintf(output, "\n");
     
     free_tree(root);
@@ -166,12 +168,19 @@ void update_heights(Node *node, int current_height) {
     }
 }
 
-void in_order_print_q3(Node *node, FILE *output) {
+void in_order_print_q3(Node *node, FILE *output, bool *first) {
     if (node == NULL)
         return;
-    in_order_print_q3(node->left, output);
-    fprintf(output, "%d (%d) ", node->key, node->height);
-    in_order_print_q3(node->right, output);
+    in_order_print_q3(node->left, output, first);
+    
+    if (!(*first))
+        fprintf(output, " ");
+    else
+        *first = false;
+    
+    fprintf(output, "%d (%d)", node->key, node->height);
+    
+    in_order_print_q3(node->right, output, first);
 }
 
 void free_tree(Node *root) {
