@@ -1,3 +1,9 @@
+/*************************************** 
+* Equipe: Deivisson Vinicius França de Jesus
+*         Edmar Amorim dos Santos Junior
+* 
+***************************************/
+
 /**
 * Considere as seguintes entrada e sáida abaixo:
 
